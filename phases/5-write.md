@@ -6,23 +6,55 @@ Produce the essay draft using the validated outline, analogy, and concepts.
 
 ## Voice & Style Principles
 
-### Analytical but Alive
-- Not academic, not casual
-- Confident claims: "The real difference is..." not "One might argue that..."
-- Let the ideas carry the charge — don't amp up with rhetoric
+### Voice (Primary)
+- **Conversational but substantive.** Writing like explaining something interesting to a smart friend.
+- **Confident without hedging.** Direct statements. "The real difference is..." not "One might argue that..."
+- **First person welcome.** "I realized," "I've been thinking" — this is personal writing.
+- **Enthusiastic where genuine.** If you're excited about an idea, say so.
 
-### Anti-Slop
-Avoid these AI-isms:
-- **Overused words:** delve, robust, nuanced, leverage, landscape, tapestry, multifaceted, foster, underscore, pivotal
-- **Throat-clearing:** "It's worth noting...", "It's important to consider...", "In today's rapidly evolving..."
-- **False emphasis:** "It's not just X — it's Y" (binary contrasts for drama)
-- **Excessive signposting:** "Let me explain...", "As we can see...", "In conclusion..."
+### Sentence-Level
+- **Vary length.** Short declaratives for emphasis. Longer ones for explanation. Punchy resets after dense passages.
+- **Front-load.** Put conclusions first, then explain. Don't bury the point.
+- **Active voice default.** Say who does what.
+- **Positive form.** Say what something IS, not what it ISN'T.
+- **Em-dashes encouraged** — vary with commas and parentheses. One per sentence max.
 
-Instead:
-- Lead with your point, then support it
-- Vary sentence length — not everything 18-24 words
-- One em dash maximum per paragraph
-- Specific names, mechanisms, examples — not vague assertions
+### Cliche Avoidance (The Load-Bearing Rule)
+
+**Never use a metaphor, simile, or figure of speech you are used to seeing in print.**
+
+Cliches fail because they no longer evoke images — readers' eyes slide past them. The test: does this phrase create a picture, or has it become wallpaper?
+
+**Dying metaphors:**
+- stand shoulder to shoulder, toe the line, Achilles' heel, ring the changes, play into the hands of, run roughshod over, take up the cudgels for
+
+**Dying phrases in tech/business writing:**
+- move the needle, boil the ocean, low-hanging fruit, deep dive, double down, at the end of the day, the reality is, it goes without saying, needless to say
+
+**The fix:** When you reach for a familiar phrase, stop. Either say it plainly or invent a fresh image. If you can't make it fresh, plain is better than stale.
+
+### Padding to Cut
+- "The fact that" → rephrase
+- "There is / There are" → start with the subject
+- "In order to" → "to"
+- "It's worth noting that" → just note it
+- Qualifiers that hedge without adding: "very," "quite," "rather," "somewhat," "basically," "essentially"
+
+### Paragraphs
+- **Short to medium.** Rarely more than 4-5 sentences. Often 1-2 for pacing.
+- **One idea per paragraph.**
+- **Whitespace is generous.** Let ideas breathe.
+
+### Structure (Rao patterns)
+- **Lead with a concrete phenomenon.** Not an abstract claim — something specific and recognizable.
+- **Create cognitive handles.** Named concepts that anchor the argument.
+- **Dense blocks → single-sentence reset.** After building complexity, punctuate with a verdict.
+- **Loop back.** Close by returning to the opening image, transformed.
+
+### The Test
+1. What am I actually trying to say?
+2. Does every phrase create a picture, or has it become wallpaper?
+3. Would I say this out loud to a smart friend?
 
 ### Meso-Level Density
 - Hold many threads — reference earlier points, connect across sections
@@ -53,11 +85,10 @@ Instead:
 ## Writing Process
 
 1. **Write the Hook first** — this sets the tone
-2. **Write the Turn next** — this is the core move; get it right
-3. **Fill in Obvious Framing** — now that you know where you're going
-4. **Structural Unpacking** — the meso-level detail work
-5. **Stakes & Implications** — what follows
-6. **Recipe** — write this AS you write, noting your actual moves
+2. **Write the New Frame next** — this is the core move; get it right
+3. **Structural Unpacking** — the meso-level detail work
+4. **Stakes & Implications** — what follows
+5. **Recipe** — write this AS you write, noting your actual moves
 
 ### Track the Recipe
 As you write each section, note:
