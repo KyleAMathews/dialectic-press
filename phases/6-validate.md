@@ -4,6 +4,27 @@
 
 Review the draft against quality criteria. Revise as needed. Finalize.
 
+## Spawn a Fresh Reviewer
+
+**Important:** The agent that wrote the draft will be biased toward its own choices. Spawn a fresh subagent to do the validation. The reviewer should:
+
+1. Read the essay file (not the conversation context)
+2. Apply the validation checklist and prose diagnostics below
+3. Return specific findings with line references
+4. Not see the earlier phases or decision-making process
+
+**Subagent prompt template:**
+
+> You are reviewing an essay for quality. Read [essay path] and evaluate it against these criteria. You have not seen the writing process — approach it fresh.
+>
+> For each issue found, cite the specific passage and explain the problem.
+>
+> [Include the validation checklist and prose diagnostics sections below]
+
+The orchestrator receives the findings and presents them to the user. The user decides what to revise.
+
+---
+
 ## Validation Checklist
 
 Work through these questions. Be honest — if the answer is "no," the essay needs revision.
