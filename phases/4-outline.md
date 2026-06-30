@@ -9,33 +9,45 @@ Map your material onto the sloptractions essay arc. Get user approval on structu
 Sloptractions essays follow a recognizable structure:
 
 ```
-1. HOOK (300-500 words)
+1. HOOK
    - Concrete phenomenon readers will recognize
    - Something curious or surprising about it
    - No need to frame as "debate" — just show the phenomenon
 
-2. THE NEW FRAME (500-800 words)
+2. THE NEW FRAME
    - Introduce the analogical domain directly
    - Don't set up and knock down the "old framing"
    - Let the displacement be implicit — readers notice what your frame replaces
    - Deploy your conceptual currency here
 
-3. STRUCTURAL UNPACKING (800-1500 words)
+3. STRUCTURAL UNPACKING
    - Decompose into layers/phases/tensions
    - Use evidence from monk essays + context briefing
    - Trace implications through the structure
    - Meso-level territory: more detail than a hot take, less than a treatise
 
-4. STAKES & IMPLICATIONS (300-500 words)
+4. STAKES & IMPLICATIONS
    - What follows if the reframing is correct?
    - What should readers do/think differently?
    - Name the open questions (from misfits)
 
-5. RECIPE (200-400 words)
+5. RECIPE
    - Expose the generative moves
    - Imperative verbs: "Start with...", "Reframe...", "Identify..."
    - Usable by readers for thinking through their own stuck problems
 ```
+
+### Length
+
+Essays can range from ~500 to ~10,000 words. Let the material dictate length.
+
+**Short essays (~500-1500 words):** Hook and Frame can merge. Structural Unpacking is tight — one key insight, not a full decomposition. Stakes may be a single paragraph. Recipe optional.
+
+**Medium essays (~1500-4000 words):** The standard arc. Each section gets room to breathe.
+
+**Long essays (~4000-10,000 words):** Structural Unpacking expands — multiple layers, extended examples, more meso-level detail. May have multiple sub-sections. Hook and Frame can linger.
+
+**Ask the user** if they have a target length in mind, or let them know your estimate based on the material's complexity.
 
 ## Adapting the Arc
 
