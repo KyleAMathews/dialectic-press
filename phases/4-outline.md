@@ -111,7 +111,13 @@ The burst should contain ideas that surprise you — if every title is predictab
 
 Would a reader know what they're getting? Could they remember and refer back to it?
 
-Present 3-5 title candidates (selected from your burst) to the user as part of the outline checkpoint.
+### Presenting to the User
+
+Show both:
+1. **The full idea burst** (all 8-12 candidates) — so the user can see the range and catch something you might have deprioritized
+2. **Your top 3-5 picks** — with brief reasoning for why these work best
+
+The user may prefer something from the burst that you didn't select.
 
 ---
 
@@ -148,10 +154,16 @@ Present the outline to the user:
 
 > "Here's the proposed essay structure:
 > 
-> **Title candidates:**
-> 1. [option]
-> 2. [option]
-> 3. [option]
+> **Title idea burst:**
+> 1. [candidate]
+> 2. [candidate]
+> 3. [candidate]
+> ...
+> 
+> **My top picks:**
+> - [title]: [why this works]
+> - [title]: [why this works]
+> - [title]: [why this works]
 > 
 > **Hook:** [the phenomenon, what's curious about it]
 > 
