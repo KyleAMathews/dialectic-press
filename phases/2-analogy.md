@@ -79,6 +79,18 @@ Present 2-3 candidate analogies to the user:
 > 
 > Which resonates? Or is there a domain you'd prefer to draw from?"
 
-**Wait for user to pick or propose an alternative before proceeding to Phase 3.**
+---
 
-If the user picks one, confirm and note which vocabulary/concepts you'll import. If they propose a different domain, explore its structural fit before committing.
+## HARD STOP
+
+**You CANNOT proceed to Phase 3 until the user explicitly says to continue.**
+
+Do not read the next phase file. Do not start coining concepts. Stay here.
+
+If the user has questions, wants to explore other domains, or asks you to develop an option further — do that. Say something like:
+
+> "Happy to keep exploring until you give me the go-ahead to move to Phase 3."
+
+Only when the user explicitly confirms (e.g., "continue," "next phase," "let's go with Option A") should you read `phases/3-concepts.md`.
+
+If the user picks a domain, confirm and note which vocabulary/concepts you'll import. If they propose a different domain, explore its structural fit before committing.

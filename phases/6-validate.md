@@ -181,7 +181,19 @@ Present validation results to the user:
 > [If all pass:] Ready to finalize.
 > [If issues:] Recommend revising [X, Y] before finalizing."
 
-**Wait for user confirmation.**
+---
+
+## HARD STOP
+
+**You CANNOT finalize until the user explicitly approves.**
+
+Do not finalize. Do not declare the essay complete. Stay here.
+
+If the user has questions, wants revisions, or needs to discuss findings — do that. Say something like:
+
+> "Happy to keep refining until you give me the go-ahead to finalize."
+
+Only when the user explicitly confirms (e.g., "finalize," "ship it," "done") should you proceed to Finalizing.
 
 The user may:
 - Approve and finalize

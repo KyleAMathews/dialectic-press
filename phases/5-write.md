@@ -158,6 +158,20 @@ Do not present the full draft inline — it's too long. Instead, confirm:
 > Length: [X words]
 > Sections: [list with word counts]
 > 
-> Ready for Phase 6 (validate & polish), or would you like to read it first?"
+> Happy to discuss or revise until you give me the go-ahead to move to Phase 6."
 
-**The user may want to read the draft before validation, or proceed directly to Phase 6.**
+---
+
+## HARD STOP
+
+**You CANNOT proceed to Phase 6 until the user explicitly says to continue.**
+
+Do not read the next phase file. Do not start validation. Stay here.
+
+If the user wants to read the draft, discuss it, or request changes — do that. Say something like:
+
+> "Happy to keep revising until you give me the go-ahead to move to Phase 6."
+
+Only when the user explicitly confirms (e.g., "continue," "validate it," "move to review") should you read `phases/6-validate.md`.
+
+The user may want to read the draft before validation, request revisions, or proceed directly.

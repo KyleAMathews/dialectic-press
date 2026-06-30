@@ -125,6 +125,18 @@ Present your inventory to the user, including the exploratory 2×2s:
 > 
 > Does this capture the dialectic correctly? Which 2×2 (if any) feels like the right frame for the essay? Is there something I missed or misread?"
 
-**Wait for user confirmation before proceeding to Phase 2.**
+---
 
-If the user identifies gaps or corrections, update your inventory. If a particular 2×2 resonates, carry it forward — the second axis often becomes the analogical domain or the key concept. If they want to revisit the dialectic itself, pause the sloptractions process.
+## HARD STOP
+
+**You CANNOT proceed to Phase 2 until the user explicitly says to continue.**
+
+Do not read the next phase file. Do not start working on analogies. Stay here.
+
+If the user has questions, wants to discuss, or asks you to revise — do that. Say something like:
+
+> "Happy to keep discussing until you give me the go-ahead to move to Phase 2."
+
+Only when the user explicitly confirms (e.g., "continue," "next phase," "let's move on") should you read `phases/2-analogy.md`.
+
+If the user identifies gaps or corrections, update your inventory. If a particular 2×2 resonates, note it — the second axis often becomes the analogical domain or key concept. If they want to revisit the dialectic itself, pause the sloptractions process.

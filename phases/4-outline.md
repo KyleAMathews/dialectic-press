@@ -117,7 +117,19 @@ Present the outline to the user:
 > 
 > Does this arc work? Should any section be expanded, compressed, or reordered? Anything missing?"
 
-**Wait for user approval before proceeding to Phase 5.**
+---
+
+## HARD STOP
+
+**You CANNOT proceed to Phase 5 until the user explicitly says to continue.**
+
+Do not read the next phase file. Do not start writing. Stay here.
+
+If the user has questions, wants to adjust the outline, or asks for changes — do that. Say something like:
+
+> "Happy to keep refining the outline until you give me the go-ahead to move to Phase 5."
+
+Only when the user explicitly confirms (e.g., "continue," "looks good," "start writing") should you read `phases/5-write.md`.
 
 The user may:
 - Approve and proceed

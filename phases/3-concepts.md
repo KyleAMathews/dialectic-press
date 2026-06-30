@@ -87,7 +87,19 @@ Present candidate terms to the user:
 > 
 > Which of these do work? Any that feel like empty labels? Terms you'd prefer instead?"
 
-**Wait for user validation before proceeding to Phase 4.**
+---
+
+## HARD STOP
+
+**You CANNOT proceed to Phase 4 until the user explicitly says to continue.**
+
+Do not read the next phase file. Do not start outlining. Stay here.
+
+If the user has questions, rejects terms, or asks for alternatives — do that. Say something like:
+
+> "Happy to keep refining these until you give me the go-ahead to move to Phase 4."
+
+Only when the user explicitly confirms (e.g., "continue," "these work," "let's outline") should you read `phases/4-outline.md`.
 
 The user may:
 - Approve the terms
