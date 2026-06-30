@@ -11,50 +11,54 @@ Sloptractions essays follow a recognizable structure:
 ```
 1. HOOK (300-500 words)
    - Concrete phenomenon readers will recognize
-   - Brief statement of the apparent tension
-   - Signal that a reframing is coming
+   - Something curious or surprising about it
+   - No need to frame as "debate" — just show the phenomenon
 
-2. THE OBVIOUS FRAMING (300-500 words)
-   - Present the two sides as most people see them
-   - Compressed from your monk essays
-   - Make each side genuinely compelling
+2. THE NEW FRAME (500-800 words)
+   - Introduce the analogical domain directly
+   - Don't set up and knock down the "old framing"
+   - Let the displacement be implicit — readers notice what your frame replaces
+   - Deploy your conceptual currency here
 
-3. THE TURN (500-800 words)
-   - Introduce the analogical domain
-   - Show how the analogy reframes the tension
-   - Deploy your conceptual currency
-   - This is where the hidden question emerges
-
-4. STRUCTURAL UNPACKING (800-1500 words)
+3. STRUCTURAL UNPACKING (800-1500 words)
    - Decompose into layers/phases/tensions
    - Use evidence from monk essays + context briefing
    - Trace implications through the structure
    - Meso-level territory: more detail than a hot take, less than a treatise
 
-5. STAKES & IMPLICATIONS (300-500 words)
+4. STAKES & IMPLICATIONS (300-500 words)
    - What follows if the reframing is correct?
    - What should readers do/think differently?
    - Name the open questions (from misfits)
 
-6. RECIPE (200-400 words)
+5. RECIPE (200-400 words)
    - Expose the generative moves
    - Imperative verbs: "Start with...", "Reframe...", "Identify..."
-   - Usable by readers for their own stuck binaries
+   - Usable by readers for thinking through their own stuck problems
 ```
 
 ## Adapting the Arc
 
 Adjust proportions based on your material:
 
-- **Rich structural unpacking** (4-layer model, 7-phase process) → give Section 4 more space
+- **Rich structural unpacking** (4-layer model, 7-phase process) → give Section 3 more space
 - **Viscerally compelling hook** → linger there, let it breathe
-- **Simple synthesis, complex implications** → compress 3-4, expand 5
-- **The analogy IS the insight** → combine 3 and 4
+- **Simple synthesis, complex implications** → compress 2-3, expand 4
+- **The analogy IS the insight** → combine 2 and 3
 
 You can also reorder:
 - Hook with the analogy upfront (if it's striking enough)
 - Weave stakes throughout rather than clustering at end
 - Recipe as a sidebar rather than a section
+
+## On Subtlety
+
+Rao's essays don't explicitly name and dismantle "the old binary." They just introduce the new frame and let readers notice what it displaces. This is more subtle and more effective:
+
+- **Don't:** "People think it's either X or Y. But actually..."
+- **Do:** Show the phenomenon, introduce your frame, let the reframing be implicit
+
+The monk essays gave you the steelmanned positions — use their *evidence and examples*, not their framing. The dialectic did the work of finding what both sides missed; the essay doesn't need to re-litigate it.
 
 ## Build the Outline
 
@@ -62,28 +66,23 @@ Using your inventory (Phase 1), analogy (Phase 2), and concepts (Phase 3), fill 
 
 ### 1. Hook
 - Which concrete phenomenon?
-- What's the one-sentence tension?
+- What's curious or surprising about it?
 
-### 2. Obvious Framing
-- Position A in one paragraph (from Monk A)
-- Position B in one paragraph (from Monk B)
-- What makes each compelling?
-
-### 3. The Turn
+### 2. The New Frame
 - How do you introduce the analogy?
-- What's the moment of reframing?
 - Which conceptual terms deploy here?
+- What does the frame make visible that wasn't before?
 
-### 4. Structural Unpacking
+### 3. Structural Unpacking
 - What's the structure you're unpacking? (layers? phases? tensions?)
-- What evidence supports each element?
+- What evidence supports each element? (draw from monk essays)
 - What's the meso-level detail that rewards close reading?
 
-### 5. Stakes & Implications
+### 4. Stakes & Implications
 - What changes if readers accept the reframing?
 - What's the open question you're leaving with them?
 
-### 6. Recipe
+### 5. Recipe
 - What were your actual moves? (You'll refine this during writing)
 
 ---
@@ -94,13 +93,9 @@ Present the outline to the user:
 
 > "Here's the proposed essay structure:
 > 
-> **Hook:** [the phenomenon, the tension]
+> **Hook:** [the phenomenon, what's curious about it]
 > 
-> **Obvious Framing:**
-> - Side A: [one-sentence version]
-> - Side B: [one-sentence version]
-> 
-> **The Turn:** [how the analogy enters, what it reveals]
+> **The New Frame:** [the analogy, the key concepts it introduces]
 > 
 > **Structural Unpacking:** [what you'll decompose — the layers/phases/tensions]
 > 

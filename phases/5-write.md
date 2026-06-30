@@ -72,23 +72,19 @@ This produces a better recipe than trying to reconstruct it after.
 - Open with the concrete phenomenon
 - Make readers nod — they recognize this
 - Create slight dissonance — something doesn't add up
-- Don't reveal the reframing yet
+- Don't frame as "the debate" — just show the phenomenon
 
-### Obvious Framing
-- Steelman both sides
-- Use the strongest formulations from monk essays
-- Reader should think: "both of these sound right, how can that be?"
-
-### The Turn
+### The New Frame
 - The analogy enters here
+- Introduce it directly, not as "but actually..."
 - Show the structural correspondence
-- Deploy your key term
-- The "oh" moment — when the hidden question becomes visible
+- Deploy your key terms
+- Let readers notice what your frame displaces — don't spell it out
 
 ### Structural Unpacking
 - This is where meso-level density lives
 - Decompose into layers, phases, or tensions
-- Use concrete evidence
+- Use concrete evidence from the monk essays (their examples, not their framing)
 - Connect back to earlier points
 - This section earns the right to the length
 
@@ -99,7 +95,7 @@ This produces a better recipe than trying to reconstruct it after.
 
 ### Recipe
 - Imperative verbs: Start with..., Reframe..., Identify..., Trace...
-- Generalizable — someone should be able to apply this to their own stuck binary
+- Generalizable — someone should be able to apply this to their own problems
 - Honest about the process — if it was messy, say so
 
 ---
