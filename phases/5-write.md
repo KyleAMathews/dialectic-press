@@ -19,6 +19,20 @@ Produce the essay draft using the validated outline, analogy, and concepts.
 - **Positive form.** Say what something IS, not what it ISN'T.
 - **Em-dashes encouraged** — vary with commas and parentheses. One per sentence max.
 
+### Characters and Actions (Williams)
+Make actors the subjects of sentences. Make their actions verbs.
+
+- **Bad:** "The implementation of the system by the team resulted in improvements."
+- **Good:** "The team implemented the system and improved performance."
+
+Watch for **nominalizations** — verbs hiding as nouns. "Made a decision" → "decided." "The analysis of" → "analyzing."
+
+### Sentence Flow (Williams + Zinsser)
+- **Old before new.** Start sentences with familiar info, end with new/complex. The end carries emphasis.
+- **Get to the verb fast.** Within 7-10 words of starting. Don't front-load with long introductory phrases.
+- **Consistent subjects.** Keep grammatical subjects consistent across related sentences. Jumping subjects makes readers work.
+- **Anticipate reader questions.** After each sentence, ask: "What will the reader wonder now?" Answer that in your next sentence. Don't repeat — move forward.
+
 ### Cliche Avoidance (The Load-Bearing Rule)
 
 **Never use a metaphor, simile, or figure of speech you are used to seeing in print.**

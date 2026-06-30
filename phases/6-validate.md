@@ -40,7 +40,7 @@ Work through these questions. Be honest — if the answer is "no," the essay nee
 - Read it aloud (or have the user read it)
 - Where do you find yourself skimming? Tighten or cut there.
 - Does the prose have rhythm? Vary sentence lengths.
-- Any AI-isms that slipped through? (delve, robust, nuanced, "it's worth noting")
+- Any cliches that slipped through? (dying metaphors, familiar phrases that no longer evoke images)
 
 **If no:** Line-edit for voice. Cut 10-20%.
 
@@ -50,6 +50,59 @@ Work through these questions. Be honest — if the answer is "no," the essay nee
 - Is there enough concrete detail to reward close reading?
 
 **If no:** Either add specifics or cut the vague material.
+
+---
+
+## Prose Diagnostics
+
+When a sentence or paragraph feels off but you can't pinpoint why, use these tests:
+
+### Sentence-Level (Williams)
+
+**The First 7-8 Words Test**
+- Underline the first 7-8 words. Can you find the main subject and verb?
+- Is the subject a real actor, or an abstraction? ("The establishment of..." vs "We established...")
+- Is the verb a strong action, or weak verb + nominalization? ("made a decision" vs "decided")
+
+**Nominalization Detector**
+- Circle words ending in -tion, -ment, -ness, -ity. These often hide the real action.
+- Ask: what verb is buried here? Can I restore it?
+
+**Subject-Verb Distance**
+- More than 6-7 words between subject and verb? Reader loses the thread.
+
+### Read-Aloud Tests (Zinsser)
+
+**The Monotony Test**
+- Read three consecutive sentences aloud. Same rhythm/length? Vary them.
+
+**The Stumble Test**
+- Where do you stumble or run out of breath? That's where structure is fighting you.
+
+**The "What Am I Trying to Say?" Test**
+- After reading a sentence, can you say it more directly in plain speech? If not, it's unclear.
+
+### Paragraph-Level
+
+**Topic Sentence Audit**
+- Can you identify each paragraph's main claim in one sentence?
+- Does that claim appear in the first 2 sentences? Buried topic sentences confuse readers.
+
+**The "So What?" Chain**
+- Read each sentence and ask "so what?" or "why does this follow?"
+- If you can't answer, there's a coherence gap.
+
+### Complex vs Unclear
+
+A sentence is **complex but clear** if:
+- Subject and verb are findable in the first 7-8 words
+- Each clause has a clear agent doing something
+- Subordinate clauses attach logically
+
+A sentence is **unclear** if:
+- You can't identify who is doing what
+- Multiple readings produce different interpretations
+- The main point only emerges after the sentence ends
 
 ## Revision Process
 
