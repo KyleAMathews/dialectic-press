@@ -54,9 +54,54 @@ Flag the most quotable/usable passages:
 
 ---
 
+## Exploratory 2×2s
+
+Before checkpointing, **draw 2-3 candidate 2×2 diagrams** to map the space of possible framings. This helps you be precise about what the essay is actually about, and makes it easier for the user to evaluate your read.
+
+### How to Draw a 2×2
+
+**Start from the tension, not the dimensions.** Don't hunt for "the two most important dimensions." Start from the argument the 2×2 needs to resolve.
+
+1. **Axis 1** = the surface tension from the dialectic (what the monks were arguing about)
+2. **Axis 2** = an orthogonal dimension that turns "opposing positions on one line" into "different quadrants"
+3. Label all four quadrants — each must name a real, distinct thing
+4. Place the monks/positions
+5. Read the **empty or under-occupied quadrant** — often where the synthesis or essay's insight lives
+
+### ASCII Template
+
+```
+                       axis-2: [POLE B]
+        ┌──────────────────────┬──────────────────────┐
+        │ [quadrant label]     │ [quadrant label]     │
+        │ — [who/what here]    │ — [who/what here]    │
+ axis-1 ├──────────────────────┼──────────────────────┤  axis-1
+[POLE A]│ [quadrant label]     │ [quadrant label]     │ [POLE B]
+        │ — [who/what here]    │ — [who/what here]    │
+        └──────────────────────┴──────────────────────┘
+                       axis-2: [POLE A]
+```
+
+### Judging Tests
+
+- **Orthogonality** — are the axes actually independent, or secretly correlated (a diagonal in disguise)?
+- **All four meaningful** — does each quadrant name a real, distinct thing?
+- **The telling empty quadrant** — empty for an interesting reason = payoff. Empty because axis was forced = defect.
+- **Does it resolve the argument?** — does placing positions in quadrants actually clarify something?
+
+### The Honesty Rule
+
+Generate multiple 2×2s with different axis pairs — you're exploring, not committing. A legitimate output is also:
+
+> "No second axis earns its place here — these positions genuinely sit on one line."
+
+That's a finding, not a failure. Don't force a diagram.
+
+---
+
 ## Checkpoint
 
-Present your inventory to the user:
+Present your inventory to the user, including the exploratory 2×2s:
 
 > "Here's what I found in the dialectic outputs:
 > 
@@ -70,8 +115,16 @@ Present your inventory to the user:
 > 
 > **Best material:** [2-3 passages worth building around]
 > 
-> Does this capture the dialectic correctly? Is there something I missed or misread? Any element you want to emphasize or de-emphasize?"
+> ---
+> 
+> **Exploratory 2×2s:**
+> 
+> [Draw 2-3 candidate diagrams with different axis pairs. For each, note what it clarifies and what's in the empty quadrant.]
+> 
+> ---
+> 
+> Does this capture the dialectic correctly? Which 2×2 (if any) feels like the right frame for the essay? Is there something I missed or misread?"
 
 **Wait for user confirmation before proceeding to Phase 2.**
 
-If the user identifies gaps or corrections, update your inventory. If they want to revisit the dialectic itself, pause the sloptractions process.
+If the user identifies gaps or corrections, update your inventory. If a particular 2×2 resonates, carry it forward — the second axis often becomes the analogical domain or the key concept. If they want to revisit the dialectic itself, pause the sloptractions process.
