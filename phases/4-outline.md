@@ -76,13 +76,22 @@ The monk essays gave you the steelmanned positions — use their *evidence and e
 
 Now that you know the concept, draft title candidates. For intellectual essays, **name the idea precisely** — don't try to be clever at the expense of clarity.
 
-### Generating Candidates
+### The Idea Burst (Do Not Skip)
 
-Write 5-10 variations before choosing. Try different frames:
+**Generate a burst of 8-12 title candidates before selecting.** This is the most commonly skipped step, and skipping it visibly degrades quality. When you jump straight to "here are 3 options," you propose whatever's most obvious — which is almost always safe and predictable rather than precise and memorable.
+
+**Do not skip this step. Do not abbreviate it.** Generate the burst first, read it, *then* select the best 3-5 to present.
+
+Cast a wide net. Try different frames:
 - **The concept itself:** "Legibility," "Slack," "The Heat Pump Theory of Intervention"
 - **Hook + subtitle:** "[Intriguing phrase]: [Descriptive subtitle]"
-- **The claim:** "Prompting is Managing"
+- **The claim:** "Prompting is Managing," "Capital Must Seek Delight"
+- **The analogy:** "LLMs as Index Funds"
 - **The question:** (rarely — usually weaker for essays that answer the question)
+- **The unexpected pairing:** combine two concepts that don't usually go together
+- **The inversion:** flip a familiar phrase or assumption
+
+The burst should contain ideas that surprise you — if every title is predictable from the concept, you're not casting wide enough.
 
 ### What Works for Intellectual Essays
 
@@ -102,7 +111,7 @@ Write 5-10 variations before choosing. Try different frames:
 
 Would a reader know what they're getting? Could they remember and refer back to it?
 
-Present 3-5 title candidates to the user as part of the outline checkpoint.
+Present 3-5 title candidates (selected from your burst) to the user as part of the outline checkpoint.
 
 ---
 
