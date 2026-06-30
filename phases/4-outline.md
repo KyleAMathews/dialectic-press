@@ -72,6 +72,40 @@ Rao's essays don't explicitly name and dismantle "the old binary." They just int
 
 The monk essays gave you the steelmanned positions — use their *evidence and examples*, not their framing. The dialectic did the work of finding what both sides missed; the essay doesn't need to re-litigate it.
 
+## Title
+
+Now that you know the concept, draft title candidates. For intellectual essays, **name the idea precisely** — don't try to be clever at the expense of clarity.
+
+### Generating Candidates
+
+Write 5-10 variations before choosing. Try different frames:
+- **The concept itself:** "Legibility," "Slack," "The Heat Pump Theory of Intervention"
+- **Hook + subtitle:** "[Intriguing phrase]: [Descriptive subtitle]"
+- **The claim:** "Prompting is Managing"
+- **The question:** (rarely — usually weaker for essays that answer the question)
+
+### What Works for Intellectual Essays
+
+- **Clarity beats cleverness.** A confused reader scrolls past.
+- **Name the concept precisely.** If your essay introduces an idea, make that idea the title.
+- **Short is better.** 6-10 words max.
+- **Match title to content.** The title is a promise — if your essay pivots during writing, update the title.
+
+### Common Mistakes
+
+- Promising more than you deliver
+- Being clever at the expense of clarity
+- Generic titles ("Some Thoughts on X")
+- Jargon that limits audience
+
+### The Test
+
+Would a reader know what they're getting? Could they remember and refer back to it?
+
+Present 3-5 title candidates to the user as part of the outline checkpoint.
+
+---
+
 ## Build the Outline
 
 Using your inventory (Phase 1), analogy (Phase 2), and concepts (Phase 3), fill in:
@@ -105,6 +139,11 @@ Present the outline to the user:
 
 > "Here's the proposed essay structure:
 > 
+> **Title candidates:**
+> 1. [option]
+> 2. [option]
+> 3. [option]
+> 
 > **Hook:** [the phenomenon, what's curious about it]
 > 
 > **The New Frame:** [the analogy, the key concepts it introduces]
@@ -115,7 +154,7 @@ Present the outline to the user:
 > 
 > **Estimated length:** [X words, with breakdown by section]
 > 
-> Does this arc work? Should any section be expanded, compressed, or reordered? Anything missing?"
+> Which title works? Does this arc work? Should any section be expanded, compressed, or reordered?"
 
 ---
 
