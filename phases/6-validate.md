@@ -104,6 +104,27 @@ A sentence is **unclear** if:
 - Multiple readings produce different interpretations
 - The main point only emerges after the sentence ends
 
+### Orwell's Six Questions
+
+For any sentence that feels off, ask:
+1. What am I trying to say?
+2. What words will express it?
+3. What image or idiom will make it clearer?
+4. Is this image fresh enough to have an effect?
+5. Could I put it more shortly?
+6. Have I said anything avoidably ugly?
+
+### Strunk & White Pattern Hunt
+
+Search the draft for these and revise:
+- **"The fact that"** → always rephrase
+- **"Who is / which was"** → usually delete ("his cousin, who is a member" → "his cousin, a member")
+- **"There is / There are"** → start with the real subject
+- **Lonely qualifiers:** "rather," "very," "little," "pretty," "quite" — cut if they add nothing
+- **Separated pairs:** subject far from verb? modifier far from what it modifies? Move them together
+- **Broken parallels:** "reading, writing, and to paint" → "reading, writing, and painting"
+- **Buried emphasis:** the stress position is sentence-final. Important word stuck in the middle? Restructure
+
 ## Revision Process
 
 If validation surfaces issues:
