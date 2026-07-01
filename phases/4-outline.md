@@ -121,6 +121,20 @@ The user may prefer something from the burst that you didn't select.
 
 ---
 
+## Section Headers
+
+Use headers above ~1500 words. Skip for shorter pieces — they can make a short essay feel mechanical.
+
+**Guidelines:**
+- **Parallel structure** — all headers should follow the same grammatical pattern
+- **Reveal topic, not conclusion** — "Why Markets Fail Here" beats both vague "Considerations" and spoiler "Markets Fail Due to Information Asymmetry"
+- **Let ideas drive organization** — don't impose artificial architecture; headers serve thinking, not the reverse
+- **Section count:** 1500-3000 words → 2-4 sections; 3000-5000 → 3-5; 5000+ → 4-7
+
+No need for an idea burst here — section titles are functional navigation, not hooks.
+
+---
+
 ## Build the Outline
 
 Using your inventory (Phase 1), analogy (Phase 2), and concepts (Phase 3), fill in:
