@@ -36,12 +36,14 @@ Work through these questions. Be honest — if the answer is "no," the essay nee
 
 **If no:** Return to Phase 2 or strengthen the analogy's role in the Turn section.
 
-### 2. Is the synthesis genuinely new?
-- Or is it "both sides have merits" dressed up?
-- Test: Would either monk feel *elevated*, not just accommodated?
-- Test: Does the synthesis make it hard to go back to thinking in the old terms?
+### 2. Does the essay have a genuine insight?
+- Is there a reframing that changes how you see the topic?
+- Test: Does the essay make it hard to go back to thinking in the old terms?
+- Test: Could you summarize the insight in one sentence that sounds non-obvious?
 
 **If no:** The problem is upstream — return to the dialectic.
+
+Note: This is an essay, not a dialectic synthesis. You don't need to "elevate both monks" — the essay uses the dialectic's insight to make an argument. It's fine to take a side or dismiss a position if the argument supports it.
 
 ### 3. Can readers use the conceptual currency?
 - Test: "In situation X, is this [term A] or [term B]?"
