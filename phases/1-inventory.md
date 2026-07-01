@@ -4,6 +4,28 @@
 
 Survey the dialectic outputs and identify what you have to work with. Extract the key elements that will become essay components.
 
+## Check for Multiple Rounds
+
+First, check if the dialectic has multiple rounds (look for `round_1_*`, `round_2_*`, etc. or similar patterns).
+
+**Multiple rounds don't necessarily build on each other.** Each round may be a separate argument that could become its own essay. Don't assume you're writing about the final round.
+
+If multiple rounds exist:
+1. Briefly taste each round's conclusion/synthesis (just the key insight, not full read)
+2. Present a summary of what each round produced
+3. Ask the user which round(s) to focus on before diving deeper
+
+> "This dialectic has [N] rounds:
+> - **Round 1:** [one-sentence summary of the synthesis]
+> - **Round 2:** [one-sentence summary]
+> - **Round 3:** [one-sentence summary]
+> 
+> Which round should the essay focus on? Or should we combine insights from multiple rounds?"
+
+Only after the user picks should you do the full read-through below.
+
+---
+
 ## What to Read
 
 Locate the dialectic files. **Read in this order** — it matters:
