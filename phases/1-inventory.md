@@ -6,17 +6,17 @@ Survey the dialectic outputs and identify what you have to work with. Extract th
 
 ## Check for Multiple Rounds
 
-First, check if the dialectic has multiple rounds (look for `round_1_*`, `round_2_*`, etc. or similar patterns).
+First, list files in the dialectic directory to check for multiple rounds. Look for `round1_*.md`, `round2_*.md`, etc.
 
 **Multiple rounds don't necessarily build on each other.** Each round may be a separate argument that could become its own essay. Don't assume you're writing about the final round.
 
 If multiple rounds exist:
-1. Briefly taste each round's conclusion/synthesis (just the key insight, not full read)
+1. Briefly read each round's `round{N}_sublation.md` (just the key insight, not full analysis)
 2. Present a summary of what each round produced
 3. Ask the user which round(s) to focus on before diving deeper
 
 > "This dialectic has [N] rounds:
-> - **Round 1:** [one-sentence summary of the synthesis]
+> - **Round 1:** [one-sentence summary of the sublation]
 > - **Round 2:** [one-sentence summary]
 > - **Round 3:** [one-sentence summary]
 > 
@@ -28,17 +28,19 @@ Only after the user picks should you do the full read-through below.
 
 ## What to Read
 
-Locate the dialectic files. **Read in this order** — it matters:
+Dialectic files follow this naming convention: `round{N}_{type}.md`
+
+**Read in this order** — it matters:
 
 | Order | File Pattern | Why This Order |
 |-------|--------------|----------------|
-| 1 | `*conclusion*` or `*synthesis*` or `*candidate_S*` | **Start here.** This is where the insight lives — what got cancelled/preserved/elevated. |
-| 2 | `*determinate_negation*` | The specific failures that make the argument interesting. Often the best material. |
-| 3 | `*monk_a*`, `*monk_b*` | **Skim for evidence and examples**, not their framing. The essay won't reproduce the monks' arguments. |
-| 4 | `*misfit*` or `*queue*` | Honest limits — what tensions remain unresolved. |
-| 5 | `*context_briefing*` or `*research*` | Only if you need background for the hook. Don't read this first — you'll get lost in details. |
+| 1 | `round{N}_sublation.md` | **Start here.** This is the synthesis — what got cancelled/preserved/elevated. |
+| 2 | `round{N}_determinate_negation.md` | The specific failures that make the argument interesting. Often the best material. |
+| 3 | `round{N}_monk_a.md`, `round{N}_monk_b.md` | **Skim for evidence and examples**, not their framing. The essay won't reproduce the monks' arguments. |
+| 4 | `misfit_register.md` | Honest limits — what tensions remain unresolved. (Lives at dialectic root, not per-round.) |
+| 5 | `round{N}_context.md` | Only if you need background for the hook. Don't read this first — you'll get lost in details. |
 
-**Do not read randomly.** The synthesis/conclusion is where you learn what the essay is actually about. The monks are source material, not the structure.
+**Do not read randomly.** The sublation is where you learn what the essay is actually about. The monks are source material, not the structure.
 
 ## Extract Key Elements
 
