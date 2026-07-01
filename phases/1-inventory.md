@@ -6,18 +6,17 @@ Survey the dialectic outputs and identify what you have to work with. Extract th
 
 ## What to Read
 
-Locate and read these files from the dialectic directory:
+Locate the dialectic files. **Read in this order** — it matters:
 
-| File Pattern | What It Contains |
-|--------------|------------------|
-| `*context_briefing*` or `*research*` | Background research, domain landscape |
-| `*monk_a*`, `*monk_b*` (or `*thesis*`, `*antithesis*`) | Steelmanned position essays |
-| `*determinate_negation*` | Structural analysis — how each position fails specifically |
-| `*synthesis*` or `*candidate_S*` | The Aufhebung — what's cancelled/preserved/elevated |
-| `*conclusion*` | Final insights |
-| `*misfit*` or `*queue*` | Unresolved tensions, open contradictions |
+| Order | File Pattern | Why This Order |
+|-------|--------------|----------------|
+| 1 | `*conclusion*` or `*synthesis*` or `*candidate_S*` | **Start here.** This is where the insight lives — what got cancelled/preserved/elevated. |
+| 2 | `*determinate_negation*` | The specific failures that make the argument interesting. Often the best material. |
+| 3 | `*monk_a*`, `*monk_b*` | **Skim for evidence and examples**, not their framing. The essay won't reproduce the monks' arguments. |
+| 4 | `*misfit*` or `*queue*` | Honest limits — what tensions remain unresolved. |
+| 5 | `*context_briefing*` or `*research*` | Only if you need background for the hook. Don't read this first — you'll get lost in details. |
 
-Read enough to understand the material. You don't need to memorize everything — you'll return to these files during writing.
+**Do not read randomly.** The synthesis/conclusion is where you learn what the essay is actually about. The monks are source material, not the structure.
 
 ## Extract Key Elements
 
