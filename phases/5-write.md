@@ -54,6 +54,17 @@ Cliches fail because they no longer evoke images — readers' eyes slide past th
 - "It's worth noting that" → just note it
 - Qualifiers that hedge without adding: "very," "quite," "rather," "somewhat," "basically," "essentially"
 
+### Throat-Clearing and False Gravitas
+
+Watch for sentences that sound important but convey nothing:
+- "When Brooks spoke about what made software hard, people listened."
+- "This question has occupied thinkers for centuries."
+- "Few topics are as important as..."
+
+These are **ambient credentialing** — establishing authority or importance without showing it. The fix: state the idea. If Brooks matters, quote him or describe his specific claim. If the question is important, show why with a concrete stake.
+
+Test: Delete the sentence. Does the argument lose anything? If not, cut it.
+
 ### Paragraphs
 - **Short to medium.** Rarely more than 4-5 sentences. Often 1-2 for pacing.
 - **One idea per paragraph.**
