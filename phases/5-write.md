@@ -167,7 +167,7 @@ The recipe section needs an introduction that frames it. Something like:
 
 Or:
 
-> "What follows is the recipe — the method behind this essay. I wrote it with Claude, and these are the moves we made."
+> "What follows is the recipe — the method behind this essay. These are the moves that produced it."
 
 The point: acknowledge the AI collaboration, explain what the recipe is for, then give the steps.
 
