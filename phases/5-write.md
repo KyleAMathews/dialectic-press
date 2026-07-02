@@ -4,6 +4,18 @@
 
 Produce the essay draft using the validated outline, analogy, and concepts.
 
+## Style Lineage
+
+This phase draws on:
+
+- **Strunk & White** (*The Elements of Style*) — omit needless words, use active voice, put statements in positive form
+- **George Orwell** ("Politics and the English Language") — never use a familiar metaphor, prefer short words, cut ruthlessly
+- **William Zinsser** (*On Writing Well*) — clarity, unity, anticipate what the reader will ask next
+- **Joseph Williams** (*Style: Lessons in Clarity and Grace*) — characters as subjects, actions as verbs, old before new
+- **Venkatesh Rao** — meso-level density, structural transparency, conceptual handles, dense blocks → single-sentence reset
+
+Write like you've internalized these voices.
+
 ## Voice & Style Principles
 
 ### Voice (Primary)
