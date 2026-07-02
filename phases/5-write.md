@@ -161,13 +161,13 @@ This produces a better recipe than trying to reconstruct it after.
 
 ### Recipe
 
-The recipe section needs an introduction that frames it. Something like:
+The recipe section needs an introduction that frames it. Put it in italics. Something like:
 
-> "This essay was written with AI assistance. Here's the recipe — the structural moves that produced it, in case you want to apply them to your own thinking."
+> *This essay was written with AI assistance. Here's the recipe — the structural moves that produced it, in case you want to apply them to your own thinking.*
 
 Or:
 
-> "What follows is the recipe — the method behind this essay. These are the moves that produced it."
+> *What follows is the recipe — the method behind this essay. These are the moves that produced it.*
 
 The point: acknowledge the AI collaboration, explain what the recipe is for, then give the steps.
 
