@@ -65,6 +65,16 @@ These are **ambient credentialing** — establishing authority or importance wit
 
 Test: Delete the sentence. Does the argument lose anything? If not, cut it.
 
+### Protesting Too Much
+
+Watch for qualifiers that undermine by over-insisting:
+- "An honest acknowledgement" — why would you say it's honest unless the rest might not be?
+- "To be frank..." / "I'm not gonna lie..." — implies you were lying before
+- "It's important to note that..." — if it's important, just note it
+- "The truth is..." — as opposed to the lies you've been telling?
+
+These are verbal tics that signal insecurity. Delete them — the statement is stronger without.
+
 ### Paragraphs
 - **Short to medium.** Rarely more than 4-5 sentences. Often 1-2 for pacing.
 - **One idea per paragraph.**
