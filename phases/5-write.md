@@ -160,6 +160,18 @@ This produces a better recipe than trying to reconstruct it after.
 - Name the open questions — don't pretend to have solved everything
 
 ### Recipe
+
+The recipe section needs an introduction that frames it. Something like:
+
+> "This essay was written with AI assistance. Here's the recipe — the structural moves that produced it, in case you want to apply them to your own thinking."
+
+Or:
+
+> "What follows is the recipe — the method behind this essay. I wrote it with Claude, and these are the moves we made."
+
+The point: acknowledge the AI collaboration, explain what the recipe is for, then give the steps.
+
+**The steps themselves:**
 - Imperative verbs: Start with..., Reframe..., Identify..., Trace...
 - Generalizable — someone should be able to apply this to their own problems
 - Honest about the process — if it was messy, say so
