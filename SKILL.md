@@ -1,9 +1,9 @@
 ---
-name: slopessays-from-dialectics
+name: sloptractions
 description: Transform dialectic outputs into a Venkatesh Rao-style essay — meso-level AI-assisted writing with structural recipes. Use after completing a dialectic when you want to turn the analysis into a publishable essay that exposes both the insight and the method.
 ---
 
-# Slopessays from Dialectics
+# Sloptractions
 
 Transform dialectic outputs into a polished essay in the style of Venkatesh Rao's "sloptractions" — AI-assisted writing at "meso" abstraction with a structural recipe at the end.
 
