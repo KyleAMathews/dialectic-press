@@ -53,6 +53,7 @@ Cliches fail because they no longer evoke images — readers' eyes slide past th
 - "In order to" → "to"
 - "It's worth noting that" → just note it
 - Qualifiers that hedge without adding: "very," "quite," "rather," "somewhat," "basically," "essentially"
+- Emphasis words that have lost their meaning: "actually," "really," "literally," "truly" — these imply correction or surprise, but AI overuses them as filler. Delete unless you're genuinely correcting a misconception.
 
 ### Throat-Clearing and False Gravitas
 
