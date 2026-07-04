@@ -179,11 +179,8 @@ Map responses to frameworks:
 - Persuasive (reader-centered) — changing minds, advocacy
 - Literary (language-centered) — prose as aesthetic object
 
-**Didion's Discovery vs. Transmission:**
-- Discovery — "I write to find out what I'm thinking." Structure emerges, exploratory, questions throughout.
-- Transmission — you already know; structure is thesis-driven, conclusions clear.
-
-This distinction is crucial: discovery writing should feel like thinking-in-progress; transmission writing should feel like structured argument. Many essays fail by mixing without intention.
+**Note on Discovery vs. Transmission:**
+The dialectic IS the discovery phase — by the time you reach sloptractions, you already know what you think. The essay is transmission. However, the *texture* can still feel like thinking-in-progress (Kyle's voice) even when the conclusions are clear. The question is: how much of the discovery journey do you expose vs. present conclusions directly?
 
 **Speech Acts (what the text DOES):**
 - Asserting a truth
