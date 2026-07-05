@@ -58,6 +58,29 @@ For each candidate analogy, check:
 
 ---
 
+## Ablation Test for Analogies
+
+Before presenting candidates to the user, test each one:
+
+**For each candidate analogy:**
+1. Sketch the argument *without* the analogy vocabulary
+2. Ask yourself: Does the argument still make sense and feel complete?
+
+**Interpretation:**
+- If the argument survives without the analogy → analogy is decorative
+- Only present analogies where removal causes real loss
+
+This prevents presenting "nice to have" analogies that don't actually do structural work.
+
+**Example:**
+- With analogy: "LLMs are index funds — they converge to market average, suppress alpha"
+- Without analogy: "LLMs produce average-quality output"
+- Does the second version lose something important? If yes, the analogy is load-bearing.
+
+See `reference/ablation-testing.md` for full protocol.
+
+---
+
 ## Checkpoint
 
 Present 2-3 candidate analogies to the user:
