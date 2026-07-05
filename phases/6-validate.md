@@ -9,17 +9,22 @@ Review the draft against quality criteria. Revise as needed. Finalize.
 **Important:** The agent that wrote the draft will be biased toward its own choices. Spawn a fresh subagent to do the validation. The reviewer should:
 
 1. Read the essay file (not the conversation context)
-2. Apply the validation checklist and prose diagnostics below
-3. Return specific findings with line references
-4. Not see the earlier phases or decision-making process
+2. Read `reference/style-guide.md` for prose diagnostics
+3. Apply the validation checklist below
+4. Return specific findings with line references
+5. Not see the earlier phases or decision-making process
 
-**Subagent prompt template:**
+**Subagent prompt — use this verbatim:**
 
-> You are reviewing an essay for quality. Read [essay path] and evaluate it against these criteria. You have not seen the writing process — approach it fresh.
+> You are reviewing an essay for quality. You have not seen the writing process — approach it fresh.
 >
-> For each issue found, cite the specific passage and explain the problem.
+> **Step 1:** Read `reference/style-guide.md` — this contains the prose diagnostics you'll apply (Williams tests, Zinsser tests, Orwell's questions, Strunk & White patterns, cliche lists, padding to cut)
 >
-> [Include the validation checklist and prose diagnostics sections below]
+> **Step 2:** Read [essay path]
+>
+> **Step 3:** Apply the validation checklist below. For each issue found, cite the specific passage and explain the problem.
+>
+> [Paste the validation checklist from this file]
 
 The orchestrator receives the findings and presents them to the user. The user decides what to revise.
 
@@ -28,6 +33,21 @@ The orchestrator receives the findings and presents them to the user. The user d
 ## Validation Checklist
 
 Work through these questions. Be honest — if the answer is "no," the essay needs revision.
+
+### 0. Measurable Metrics (Run First)
+
+Run these quantitative checks before subjective review. They catch mechanical issues quickly.
+
+| Metric | Target | How to Check |
+|--------|--------|--------------|
+| Sentence length variance | Std dev > 8 words | Count words per sentence, compute std dev |
+| Em-dash usage | 1-3 per 1000 words | Count "—" occurrences |
+| First-person in first 100 words | Yes | Check first 100 words for "I" |
+| Cliché count | 0 from banned list | Scan against style-guide.md cliché lists |
+| AI-ism count | 0 | Search: "delve," "crucial," "tapestry," "multifaceted," "nestled," "it's important to note" |
+| "Actually/really/literally" | ≤1 per 1000 words | These imply correction; overuse is filler |
+
+**If metrics fail:** Fix mechanically before continuing to subjective review.
 
 ### 1. Does the analogy do work?
 - If you removed the analogy, would the essay collapse or survive?
@@ -76,77 +96,60 @@ Note: This is an essay, not a dialectic synthesis. You don't need to "elevate bo
 
 ---
 
-## Prose Diagnostics
+## Structural Ablation Suite
 
-When a sentence or paragraph feels off but you can't pinpoint why, use these tests:
+After subjective checklist, run structural tests. These use fresh subagents with no context from writing — see `reference/ablation-testing.md` for full protocol.
 
-### Sentence-Level (Williams)
+### Test 1: Analogy Knockout
 
-**The First 7-8 Words Test**
-- Underline the first 7-8 words. Can you find the main subject and verb?
-- Is the subject a real actor, or an abstraction? ("The establishment of..." vs "We established...")
-- Is the verb a strong action, or weak verb + nominalization? ("made a decision" vs "decided")
+**Setup:** Generate a version with analogical vocabulary replaced by literal descriptions.
 
-**Nominalization Detector**
-- Circle words ending in -tion, -ment, -ness, -ity. These often hide the real action.
-- Ask: what verb is buried here? Can I restore it?
+**Fresh subagent prompt:**
+> Read this essay. Does the argument still work? Rate comprehension 1-5 and note where confusion begins.
 
-**Subject-Verb Distance**
-- More than 6-7 words between subject and verb? Reader loses the thread.
+**Interpretation:**
+- Comprehension 4-5 → analogy is decorative, not load-bearing
+- Comprehension 2-3 → analogy does some work
+- Comprehension 1-2 → analogy is essential (good)
 
-### Read-Aloud Tests (Zinsser)
+### Test 2: Synthesis Section Removal
 
-**The Monotony Test**
-- Read three consecutive sentences aloud. Same rhythm/length? Vary them.
+**Setup:** Remove the "New Frame" section entirely.
 
-**The Stumble Test**
-- Where do you stumble or run out of breath? That's where structure is fighting you.
+**Fresh subagent prompt:**
+> Read this essay (missing one section). What is the main argument? What's missing?
 
-**The "What Am I Trying to Say?" Test**
-- After reading a sentence, can you say it more directly in plain speech? If not, it's unclear.
+**Interpretation:**
+- If subagent reconstructs the synthesis → section was restating, not adding
+- If subagent is confused → synthesis does real work (good)
 
-### Paragraph-Level
+### Test 3: Meso-Level Density Test
 
-**Topic Sentence Audit**
-- Can you identify each paragraph's main claim in one sentence?
-- Does that claim appear in the first 2 sentences? Buried topic sentences confuse readers.
+**Setup:** Summarize the essay to 50% length.
 
-**The "So What?" Chain**
-- Read each sentence and ask "so what?" or "why does this follow?"
-- If you can't answer, there's a coherence gap.
+**Fresh subagent prompt:**
+> Read both versions. What was lost? Rate the loss 1-5 (1 = nothing important, 5 = gutted).
 
-### Complex vs Unclear
+**Interpretation:**
+- Loss rating 1-2 → original was padded
+- Loss rating 3-4 → appropriate density
+- Loss rating 5 → may be too dense (reader can't absorb)
 
-A sentence is **complex but clear** if:
-- Subject and verb are findable in the first 7-8 words
-- Each clause has a clear agent doing something
-- Subordinate clauses attach logically
+### Running the Suite
 
-A sentence is **unclear** if:
-- You can't identify who is doing what
-- Multiple readings produce different interpretations
-- The main point only emerges after the sentence ends
+1. Each test uses a **separate fresh subagent** — no shared context
+2. Subagents read only the essay (or modified version) — no dialectic materials
+3. Results inform revision priority, not pass/fail
 
-### Orwell's Six Questions
+**Present to user:**
+> "Ablation results:
+> - Analogy knockout: [score] — [interpretation]
+> - Synthesis removal: [reconstruction/confused]
+> - Density test: [loss rating] — [interpretation]
+> 
+> [Recommendations if any tests suggest issues]"
 
-For any sentence that feels off, ask:
-1. What am I trying to say?
-2. What words will express it?
-3. What image or idiom will make it clearer?
-4. Is this image fresh enough to have an effect?
-5. Could I put it more shortly?
-6. Have I said anything avoidably ugly?
-
-### Strunk & White Pattern Hunt
-
-Search the draft for these and revise:
-- **"The fact that"** → always rephrase
-- **"Who is / which was"** → usually delete ("his cousin, who is a member" → "his cousin, a member")
-- **"There is / There are"** → start with the real subject
-- **Lonely qualifiers:** "rather," "very," "little," "pretty," "quite" — cut if they add nothing
-- **Separated pairs:** subject far from verb? modifier far from what it modifies? Move them together
-- **Broken parallels:** "reading, writing, and to paint" → "reading, writing, and painting"
-- **Buried emphasis:** the stress position is sentence-final. Important word stuck in the middle? Restructure
+---
 
 ## Revision Process
 
