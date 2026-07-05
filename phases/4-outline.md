@@ -72,6 +72,26 @@ Rao's essays don't explicitly name and dismantle "the old binary." They just int
 
 The monk essays gave you the steelmanned positions — use their *evidence and examples*, not their framing. The dialectic did the work of finding what both sides missed; the essay doesn't need to re-litigate it.
 
+## Personal Material Placement
+
+The dialectic produces structural insight. Personal material makes the essay feel like something a human wrote. Plan where each type lands:
+
+| Material Type | Where It Belongs | Why |
+|---------------|------------------|-----|
+| Personal situation | Hook or opening | Grounds the abstraction in lived experience |
+| Concrete observation | Structural Unpacking | Evidence that can't come from reasoning alone |
+| Genuine question | Stakes/end | Shows thinking-in-progress, invites reader engagement |
+| Lived experience details | Anywhere organic | Specificity signals authenticity |
+
+**Rules:**
+- At least one personal element in the first 200 words
+- If the hook is purely conceptual, add personal grounding in the second paragraph
+- Don't force personal material where it doesn't fit — better sparse and authentic than frequent and mechanical
+
+**Check your inventory (Phase 1):** Did you extract personal material? If not, ask the user now:
+
+> "The outline is taking shape. Before we finalize: do you have a personal connection to this topic — a moment, project, or conversation that sparked it? Specific details ground the essay."
+
 ## Title
 
 Now that you know the concept, draft title candidates. For intellectual essays, **name the idea precisely** — don't try to be clever at the expense of clarity.
