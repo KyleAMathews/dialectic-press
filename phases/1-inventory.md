@@ -77,6 +77,92 @@ Flag the most quotable/usable passages:
 
 ---
 
+## Why Are You Writing This?
+
+The dialectic surfaces what you're wrestling with, but not why you're writing about it. This shapes everything downstream.
+
+**Interview the user:**
+
+| Question | What It Reveals |
+|----------|-----------------|
+| "Why are you writing this particular piece?" | Dominant motive |
+| "Who is your intended reader? What do they already know/believe?" | Audience, assumptions |
+| "What do you want to happen after someone reads it?" | Action vs. making vs. labor |
+| "Is this entering an existing conversation or starting a new one?" | Arendtian action level |
+| "What would failure look like for this piece?" | What success actually is |
+
+**Map responses to frameworks:**
+
+**Orwell's Four Motives:**
+- Sheer egoism — be remembered, get your own back
+- Aesthetic enthusiasm — beauty in words, right arrangement
+- Historical impulse — preserve truth for posterity
+- Political purpose — push the world in a direction
+
+**Arendtian Action Level (Rao/Arendt):**
+- Laboring — private processing, personal need
+- Making — producing an artifact, shipping product
+- Action — entering history, public speech, beginning something new
+
+**Kinneavy's Communication Triangle:**
+- Expressive (self-centered) — journals, personal processing
+- Referential (world-centered) — explaining how things are
+- Persuasive (reader-centered) — changing minds, advocacy
+- Literary (language-centered) — prose as aesthetic object
+
+**Speech Acts (what the text DOES):**
+- Asserting a truth
+- Requesting action from reader
+- Committing yourself to something
+- Expressing a feeling/state
+- Declaring something into existence
+
+**Community-Finding:**
+- "I'm trying to find my people"
+- Building authority/expertise
+- Documenting own trajectory
+
+**Note:** The dialectic IS the discovery phase — by the time you reach sloptractions, you already know what you think. The essay is transmission. The question is: how much of the discovery journey do you expose in the texture?
+
+**This shapes downstream decisions:**
+- Voice selection (aesthetic → Didion; political → Orwell; historical → Gwern)
+- Density requirements (action requires density; making can be sparser)
+- Personal material placement (egoism → more grounding)
+- Stakes section weight (political → strong implications)
+
+---
+
+## Personal Material Extraction
+
+The dialectic produces structural insight but not personal grounding. Extract or ask:
+
+| Constraint | Source |
+|------------|--------|
+| Personal situation opening | Ask: "What's your personal connection to this topic? A moment, project, conversation?" |
+| Concrete observation | Look in context briefing; if abstract, ask: "What's a concrete example you've seen?" |
+| Genuine question | Check misfit register; ask: "What's still genuinely unclear to you after the dialectic?" |
+| Lived experience details | Ask: "Any specific names, dates, places, projects that could ground this?" |
+
+Present at checkpoint alongside hook candidates, surprising turn, etc.
+
+---
+
+## Ablation-as-Discovery
+
+Before checkpoint, run quick structural ablation on your inventory:
+
+1. **Remove Monk A's material entirely** — is Monk B sufficient alone?
+   - If yes → was this really a dialectic, or a one-sided argument?
+   
+2. **Remove the synthesis** — is the hook + monks still interesting?
+   - If yes → synthesis may be restating rather than elevating
+
+These tests help you understand what you're actually saying before you commit to an outline.
+
+See `reference/ablation-testing.md` for full protocol.
+
+---
+
 ## Exploratory 2×2s
 
 Before checkpointing, **draw 2-3 candidate 2×2 diagrams** to map the space of possible framings. This helps you be precise about what the essay is actually about, and makes it easier for the user to evaluate your read.
