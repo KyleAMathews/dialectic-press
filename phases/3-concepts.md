@@ -66,6 +66,32 @@ More is fine, but don't coin terms for the sake of coining. Every term should ea
 
 ---
 
+## Ablation Test for Terms
+
+Before committing to a term, test it:
+
+**For each coined term:**
+1. Explain the key distinction *without* using the term
+2. Ask yourself: Is the distinction still clear?
+
+**Interpretation:**
+- If the distinction is still clear → term is labeling, not compressing
+- Keep only terms where removal causes real loss
+
+**The test:**
+- Can you state the same thing in plain language without losing precision?
+- If yes, the term isn't doing work — it's just a label
+- If no, the term is compressing something that would otherwise require a paragraph
+
+**Example:**
+- Term: "linguistic alpha"
+- Without term: "original language that can't be produced by averaging"
+- Does the second version lose something? The term "alpha" imports the finance metaphor and all its connotations. That's compression.
+
+See `reference/ablation-testing.md` for full protocol.
+
+---
+
 ## Checkpoint
 
 Present candidate terms to the user:
