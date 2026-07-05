@@ -4,107 +4,45 @@
 
 Produce the essay draft using the validated outline, analogy, and concepts.
 
-## Style Lineage
+## Voice Selection
 
-This phase draws on:
+Before writing, confirm voice profile.
 
-- **Strunk & White** (*The Elements of Style*) — omit needless words, use active voice, put statements in positive form
-- **George Orwell** ("Politics and the English Language") — never use a familiar metaphor, prefer short words, cut ruthlessly
-- **William Zinsser** (*On Writing Well*) — clarity, unity, anticipate what the reader will ask next
-- **Joseph Williams** (*Style: Lessons in Clarity and Grace*) — characters as subjects, actions as verbs, old before new
-- **Venkatesh Rao** — meso-level density, structural transparency, conceptual handles, dense blocks → single-sentence reset
+**Default:** Kyle (see `reference/kyle-voice.md`)
 
-Write like you've internalized these voices.
+**Check with user if:**
+- Writing motivation suggests a different voice (see `reference/voice-profiles.md` selection guide)
+- The material calls for different treatment (exhaustive → Scott Alexander; polemic → Orwell)
+- User previously indicated voice preferences
 
-## Voice & Style Principles
+**Prompt:**
+> "The default voice is Kyle's — conversational, exploratory, fellow-traveler tone. Based on [motivation/material], does that fit, or would you prefer a different profile or blend?"
 
-### Voice (Primary)
-- **Conversational but substantive.** Writing like explaining something interesting to a smart friend.
-- **Confident without hedging.** Direct statements. "The real difference is..." not "One might argue that..."
-- **First person welcome.** "I realized," "I've been thinking" — this is personal writing.
-- **Enthusiastic where genuine.** If you're excited about an idea, say so.
+**If blending:**
+- Syntax: "70% Kyle, 30% Gwern density"
+- Apply Kyle's patterns (openings, questions, tone) with the blended element (citations, directness, thoroughness)
 
-### Sentence-Level
-- **Vary length.** Short declaratives for emphasis. Longer ones for explanation. Punchy resets after dense passages.
-- **Front-load.** Put conclusions first, then explain. Don't bury the point.
-- **Active voice default.** Say who does what.
-- **Positive form.** Say what something IS, not what it ISN'T.
-- **Em-dashes encouraged** — vary with commas and parentheses. One per sentence max.
+---
 
-### Characters and Actions (Williams)
-Make actors the subjects of sentences. Make their actions verbs.
+## Style Reference
 
-- **Bad:** "The implementation of the system by the team resulted in improvements."
-- **Good:** "The team implemented the system and improved performance."
+**Read `reference/style-guide.md` before writing.** It contains:
+- Style Lineage (Strunk & White, Orwell, Zinsser, Williams, Rao)
+- Voice principles
+- Sentence-level guidance (Williams tests, flow patterns)
+- Cliche avoidance
+- Padding to cut
+- Throat-clearing and false gravitas
+- Protesting too much
+- Paragraph and structure guidance
+- Prose diagnostics for when sentences feel off
 
-Watch for **nominalizations** — verbs hiding as nouns. "Made a decision" → "decided." "The analysis of" → "analyzing."
+Internalize those voices, then write.
 
-### Sentence Flow (Williams + Zinsser)
-- **Old before new.** Start sentences with familiar info, end with new/complex. The end carries emphasis.
-- **Get to the verb fast.** Within 7-10 words of starting. Don't front-load with long introductory phrases.
-- **Consistent subjects.** Keep grammatical subjects consistent across related sentences. Jumping subjects makes readers work.
-- **Anticipate reader questions.** After each sentence, ask: "What will the reader wonder now?" Answer that in your next sentence. Don't repeat — move forward.
+---
 
-### Cliche Avoidance (The Load-Bearing Rule)
+## Meso-Level Density
 
-**Never use a metaphor, simile, or figure of speech you are used to seeing in print.**
-
-Cliches fail because they no longer evoke images — readers' eyes slide past them. The test: does this phrase create a picture, or has it become wallpaper?
-
-**Dying metaphors:**
-- stand shoulder to shoulder, toe the line, Achilles' heel, ring the changes, play into the hands of, run roughshod over, take up the cudgels for
-
-**Dying phrases in tech/business writing:**
-- move the needle, boil the ocean, low-hanging fruit, deep dive, double down, at the end of the day, the reality is, it goes without saying, needless to say
-
-**The fix:** When you reach for a familiar phrase, stop. Either say it plainly or invent a fresh image. If you can't make it fresh, plain is better than stale.
-
-### Padding to Cut
-- "The fact that" → rephrase
-- "There is / There are" → start with the subject
-- "In order to" → "to"
-- "It's worth noting that" → just note it
-- Qualifiers that hedge without adding: "very," "quite," "rather," "somewhat," "basically," "essentially"
-- Emphasis words that have lost their meaning: "actually," "really," "literally," "truly" — these imply correction or surprise, but AI overuses them as filler. Delete unless you're genuinely correcting a misconception.
-
-### Throat-Clearing and False Gravitas
-
-Watch for sentences that sound important but convey nothing:
-- "When Brooks spoke about what made software hard, people listened."
-- "This question has occupied thinkers for centuries."
-- "Few topics are as important as..."
-
-These are **ambient credentialing** — establishing authority or importance without showing it. The fix: state the idea. If Brooks matters, quote him or describe his specific claim. If the question is important, show why with a concrete stake.
-
-Test: Delete the sentence. Does the argument lose anything? If not, cut it.
-
-### Protesting Too Much
-
-Watch for qualifiers that undermine by over-insisting:
-- "An honest acknowledgement" — why would you say it's honest unless the rest might not be?
-- "To be frank..." / "I'm not gonna lie..." — implies you were lying before
-- "It's important to note that..." — if it's important, just note it
-- "The truth is..." — as opposed to the lies you've been telling?
-
-These are verbal tics that signal insecurity. Delete them — the statement is stronger without.
-
-### Paragraphs
-- **Short to medium.** Rarely more than 4-5 sentences. Often 1-2 for pacing.
-- **One idea per paragraph.**
-- **Whitespace is generous.** Let ideas breathe.
-
-### Structure (Rao patterns)
-- **Lead with a concrete phenomenon.** Not an abstract claim — something specific and recognizable.
-- **Create cognitive handles.** Named concepts that anchor the argument.
-- **Dense blocks → single-sentence reset.** After building complexity, punctuate with a verdict.
-- **Loop back.** Close by returning to the opening image, transformed.
-
-### The Test
-1. What am I actually trying to say?
-2. Does every phrase create a picture, or has it become wallpaper?
-3. Would I say this out loud to a smart friend?
-
-### Meso-Level Density
 - Hold many threads — reference earlier points, connect across sections
 - Be specific — names, dates, mechanisms, not just abstractions
 - But don't drown — if a paragraph has 5+ distinct claims, break it up
@@ -188,6 +126,37 @@ The point: acknowledge the AI collaboration, explain what the recipe is for, the
 - Imperative verbs: Start with..., Reframe..., Identify..., Trace...
 - Generalizable — someone should be able to apply this to their own problems
 - Honest about the process — if it was messy, say so
+
+---
+
+## Iterative Improvement Loop
+
+After completing the first draft, run one improvement pass before presenting to user.
+
+**The loop:**
+
+1. **Re-read the draft cold** — as if you didn't write it
+2. **Run style diagnostics** (from `reference/style-guide.md`):
+   - First 7-8 words test: Can you find subject and verb?
+   - Nominalization detector: Circle -tion/-ment/-ness words
+   - AI-ism scan: Check for "delve," "crucial," "tapestry," etc.
+3. **Run voice check** (from `reference/kyle-voice.md`):
+   - "I" in first 100 words?
+   - At least one question as transition?
+   - Any teacher-mode passages?
+   - Em-dashes present but not overused?
+4. **Fix the top 3-5 issues you find** — don't over-polish, just catch the obvious
+5. **Note what you fixed** — this becomes part of the draft summary
+
+**When to loop again:**
+- If you find more than 5 significant issues, fix and loop once more
+- Maximum 2 passes before presenting to user
+- Note in summary if more revision is recommended
+
+**What this is NOT:**
+- Not a substitute for Phase 6 validation
+- Not user review
+- Just catching obvious issues before wasting the user's attention on fixable problems
 
 ---
 
