@@ -28,11 +28,12 @@ Each phase ends with a checkpoint. The user validates or redirects before procee
 
 ## Key Features
 
-- **Precommodification sniff test** — blind probe detects if your insight is in the training distribution
-- **Backlink discovery** — searches your blog for prior posts to reference
-- **Voice profiles** — configurable voice selection for different essay types
-- **Validator fleet** — 8 specialized validators with meaning-drift protection
-- **Style guide** — comprehensive prose diagnostics (Williams, Zinsser, Orwell, Strunk & White)
+- **Interactive workshop** — each phase ends with a checkpoint; you validate or redirect before proceeding
+- **Intent-first** — establishes what you want to write before touching the dialectic materials
+- **Precommodification detection** — blind probe tests if your insight is already in the training distribution
+- **Idea bursts** — generates 8-12 candidates for titles, subtitles, and descriptions before selecting
+- **Style guide** — comprehensive prose diagnostics drawing on Williams, Zinsser, Orwell, Strunk & White
+- **Validator fleet** — 8 specialized reviewers catch different failure modes (clichés, voice drift, structural issues)
 
 ## Installation
 
@@ -50,7 +51,7 @@ Works best after running a dialectic with [hegelian-dialectic-skill](https://git
 
 ## Inspirations
 
-- [Sloptractions](https://contraptions.venkateshrao.com/) — Venkatesh Rao's AI-assisted essay format
+- [Sloptractions](https://substack.com/@contraptions/note/c-271675689) — Venkatesh Rao's AI-assisted essay format
 - [LLMs Pre-Commodify Ideas](https://summerlightning.substack.com/p/llms-pre-commodify-ideas) — the precommodification concept
 
 ## License
