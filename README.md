@@ -1,18 +1,16 @@
 # Sloptractions
 
-A Claude Code skill for transforming dialectic outputs into Venkatesh Rao-style essays — meso-level AI-assisted writing with structural recipes.
+A Claude Code skill for transforming dialectic outputs into essays — meso-level AI-assisted writing with structural recipes.
 
 ## What It Does
 
-Takes the output of a [Hegelian Dialectic](https://github.com/kylemathews/hegelian-dialectic-skill) and turns it into a publishable essay that:
+Takes the output of a [Hegelian Dialectic](https://github.com/KyleAMathews/hegelian-dialectic-skill) and turns it into a publishable essay that:
 
 - Opens with a concrete phenomenon (hook)
 - Reframes via analogy from another domain
 - Coins precise conceptual terms that do load-bearing work
 - Unpacks structure at meso-level density (more detail than humans hold unassisted)
 - Exposes the method (the "recipe") so readers can apply it
-
-The name comes from Rao's "sloptractions" — AI-assisted writing that's transparent about its construction.
 
 ## Phases
 
@@ -49,6 +47,11 @@ Then invoke with `/sloptractions` in Claude Code.
 ## Dependencies
 
 Works best after running a dialectic with [hegelian-dialectic-skill](https://github.com/kylemathews/hegelian-dialectic-skill). The dialectic produces the raw synthesis; this skill turns it into prose.
+
+## Inspirations
+
+- [Sloptractions](https://contraptions.venkateshrao.com/) — Venkatesh Rao's AI-assisted essay format
+- [LLMs Pre-Commodify Ideas](https://summerlightning.substack.com/p/llms-pre-commodify-ideas) — the precommodification concept
 
 ## License
 
