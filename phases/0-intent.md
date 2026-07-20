@@ -169,6 +169,35 @@ Warning. The hard work got flattened. Look at where the dialectic reached — ca
 
 ---
 
+## Re-Running the Probe
+
+The thesis evolves through discussion. **Re-run the blind probe when:**
+
+- The topic/angle shifts meaningfully during Phase 0 discussion
+- Phase 1 inventory reveals a different focus than initially stated
+- Phase 2 analogy reframes the argument
+- Phase 3 coins concepts that change what you're actually claiming
+- Phase 4 outline crystallizes a thesis that differs from Phase 0 intent
+
+**The probe is cheap — when in doubt, re-run.** A thesis that started frontier can drift to groove through refinement (you converged on the obvious version). Catching this early saves a wasted draft.
+
+**How to re-run:**
+
+1. Spawn a fresh blind agent with the *current* thesis (not the original)
+2. Compare to what you're actually proposing now
+3. Report the new reading alongside the old one
+
+> "The thesis has shifted since our last check. Re-running precommodification probe...
+>
+> **Original thesis:** [what we started with] → [original reading]
+> **Current thesis:** [what we're proposing now] → [new reading]
+>
+> [If drift toward groove:] The refined version is more obvious than where we started. Did we lose the frontier edge, or clarify something that was always there?
+>
+> [If still frontier:] The refinement held. Still diverges from what a blind agent would predict."
+
+---
+
 ## How This Shapes the Process
 
 The intent established here determines:
