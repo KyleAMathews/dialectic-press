@@ -41,8 +41,7 @@ Phase 1: Inventory    → User confirms: "These are the key elements"
 Phase 2: Analogy      → User picks from candidate analogies
 Phase 3: Concepts     → User validates which terms do work
 Phase 4: Outline      → User approves arc before writing
-Phase 5: Write        → Draft produced
-Phase 6: Validate     → User reviews, requests revisions
+Phase 5: Write & Validate → Draft produced, cleaned, validated, user reviews
 ```
 
 **IMPORTANT:** Read each phase file only when you reach that phase. Do not read ahead. This keeps instructions fresh in context and prevents skipping checkpoints.
@@ -68,8 +67,7 @@ The user can intervene at any checkpoint — redirecting, adding constraints, or
 - `phases/2-analogy.md` — Find and propose analogical domains
 - `phases/3-concepts.md` — Coin and validate conceptual currency
 - `phases/4-outline.md` — Map material onto the essay arc
-- `phases/5-write.md` — Draft the essay
-- `phases/6-validate.md` — Review and polish
+- `phases/5-write.md` — Write, validate, and finalize
 
 ---
 

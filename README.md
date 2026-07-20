@@ -17,11 +17,10 @@ Takes the output of a [Hegelian Dialectic](https://github.com/KyleAMathews/hegel
 ```
 Phase 0: Intent       → Establish what you want to write about
 Phase 1: Inventory    → Survey dialectic outputs, identify key elements
-Phase 2: Analogy      → Find analogical domain from another field
-Phase 3: Concepts     → Coin and validate conceptual currency
+Phase 2: Analogy      → Find analogical domain (or confirm native frame suffices)
+Phase 3: Concepts     → Coin terms or confirm borrowed vocabulary
 Phase 4: Outline      → Map material onto the essay arc (with title/subtitle bursts)
-Phase 5: Write        → Draft the essay with voice selection
-Phase 6: Validate     → 8 validators in 3 tiers (auto-fix, human review, voice check)
+Phase 5: Write & Validate → Draft, auto-cleanup, validate, user reviews and finalizes
 ```
 
 Each phase ends with a checkpoint. The user validates or redirects before proceeding.

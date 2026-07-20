@@ -1,10 +1,14 @@
-# Phase 5: Write the Draft
+# Phase 5: Write & Validate
 
 ## Goal
 
-Produce the essay draft using the validated outline, analogy, and concepts.
+Produce the essay draft, run mechanical cleanup, run validation, then present a polished draft with findings for user review.
 
-## Voice Selection
+---
+
+## Part A: Write the Draft
+
+### Voice Selection
 
 Before writing, confirm voice profile.
 
@@ -24,7 +28,7 @@ Before writing, confirm voice profile.
 
 ---
 
-## Style Reference
+### Style Reference
 
 **Read `reference/style-guide.md` before writing.** It contains:
 - Style Lineage (Strunk & White, Orwell, Zinsser, Williams, Rao)
@@ -41,34 +45,34 @@ Internalize those voices, then write.
 
 ---
 
-## Meso-Level Density
+### Meso-Level Density
 
 - Hold many threads — reference earlier points, connect across sections
 - Be specific — names, dates, mechanisms, not just abstractions
 - But don't drown — if a paragraph has 5+ distinct claims, break it up
 
-## Integrating Dialectic Material
+### Integrating Dialectic Material
 
-### From Monk Essays
+**From Monk Essays:**
 - Don't reproduce — compress to strongest single-paragraph form
 - Quote sparingly — the best formulations, not everything
 - Each side should sound genuinely compelling before the turn
 
-### From Determinate Negation
+**From Determinate Negation:**
 - This is often the most interesting material
 - The specific failures are often the best sentences in the piece
 - "Position A fails because [specific failure], which reveals [specific missing thing]"
 
-### From Synthesis
+**From Synthesis:**
 - Should feel like arrival — "oh, *that's* what this is really about"
 - Deploy conceptual currency here
 - Don't over-explain — let the reframing land
 
-### From Misfits/Queue
+**From Misfits/Queue:**
 - Honest limits go in Stakes section
 - Acknowledging what you didn't resolve builds trust
 
-## Writing Process
+### Writing Process
 
 1. **Write the Hook first** — this sets the tone
 2. **Write the New Frame next** — this is the core move; get it right
@@ -83,34 +87,34 @@ As you write each section, note:
 
 This produces a better recipe than trying to reconstruct it after.
 
-## Section-by-Section Guidance
+### Section-by-Section Guidance
 
-### Hook
+**Hook:**
 - Open with the concrete phenomenon
 - Make readers nod — they recognize this
 - Create slight dissonance — something doesn't add up
 - Don't frame as "the debate" — just show the phenomenon
 
-### The New Frame
+**The New Frame:**
 - The analogy enters here
 - Introduce it directly, not as "but actually..."
 - Show the structural correspondence
 - Deploy your key terms
 - Let readers notice what your frame displaces — don't spell it out
 
-### Structural Unpacking
+**Structural Unpacking:**
 - This is where meso-level density lives
 - Decompose into layers, phases, or tensions
 - Use concrete evidence from the monk essays (their examples, not their framing)
 - Connect back to earlier points
 - This section earns the right to the length
 
-### Stakes & Implications
+**Stakes & Implications:**
 - What changes if readers accept this?
 - What should they do/think differently?
 - Name the open questions — don't pretend to have solved everything
 
-### Recipe
+**Recipe:**
 
 The recipe section needs an introduction that frames it. Put it in italics. Something like:
 
@@ -127,45 +131,6 @@ The point: acknowledge the AI collaboration, explain what the recipe is for, the
 - Generalizable — someone should be able to apply this to their own problems
 - Honest about the process — if it was messy, say so
 
----
-
-## Iterative Improvement Loop
-
-After completing the first draft, run one improvement pass before presenting to user.
-
-**The loop:**
-
-1. **Re-read the draft cold** — as if you didn't write it
-2. **Run style diagnostics** (from `reference/style-guide.md`):
-   - First 7-8 words test: Can you find subject and verb?
-   - Nominalization detector: Circle -tion/-ment/-ness words
-   - AI-ism scan: Check for "delve," "crucial," "tapestry," etc.
-3. **Run voice check** (from `reference/kyle-voice.md`):
-   - "I" in first 100 words?
-   - At least one question as transition?
-   - Any teacher-mode passages?
-   - Em-dashes present but not overused?
-4. **Fix the top 3-5 issues you find** — don't over-polish, just catch the obvious
-5. **Note what you fixed** — this becomes part of the draft summary
-
-**When to loop again:**
-- If you find more than 5 significant issues, fix and loop once more
-- Maximum 2 passes before presenting to user
-- Note in summary if more revision is recommended
-
-**What this is NOT:**
-- Not a substitute for Phase 6 validation
-- Not user review
-- Just catching obvious issues before wasting the user's attention on fixable problems
-
----
-
-## Output
-
-Save the draft to the dialectic directory:
-- Filename: `essay_[topic].md` or similar
-- Include the recipe as a marked section at the end
-
 ### Frontmatter
 
 Include YAML frontmatter with the title, subtitle, and meta description (from Phase 4):
@@ -179,29 +144,155 @@ date: YYYY-MM-DD
 ---
 ```
 
-The body follows the frontmatter.
+---
 
-Do not present the full draft inline — it's too long. Instead, confirm:
+## Part B: Mechanical Cleanup (Auto-Fix Loop)
+
+**Immediately after writing, before presenting to user**, run the mechanical validators in a loop.
+
+### Tier 1 Validators
+
+Spawn these in parallel, loop until clean (max 3 passes):
+
+**Validator 1: Prose Mechanics**
+> Check for: sentence length variance, buried subjects (first 7-8 words test), nominalizations (-tion/-ment/-ness), AI-isms ("delve," "crucial," "tapestry," "multifaceted," "it's important to note," "actually," "really," "literally"), padding ("the fact that," "there is/are," "in order to"), em-dash usage.
+>
+> **Preserve meaning.** Cleaner ≠ different.
+
+**Validator 3: Clichés & Stale Metaphors**
+> Check for: dying metaphors, tech/business clichés, wallpaper phrases, mixed metaphors.
+>
+> **Preserve meaning.** "Move the needle" → "increase retention" is fine. "Move the needle" → "create impact" loses specificity.
+
+**Validator 8: Factual Claims**
+> Check for: verifiable facts, technical claims, citations. Flag anything wrong or overconfident.
+
+### The Loop
+
+1. Spawn Validators 1, 3, 8 in parallel
+2. Collect findings
+3. Apply fixes (preserving meaning)
+4. Re-run on updated draft
+5. Repeat until clean OR max 3 passes
+6. Log all changes for drift review
+
+**If still finding issues after 3 passes:** Stop and flag — something's wrong upstream.
+
+---
+
+## Part C: Validation (For User Review)
+
+After mechanical cleanup, run the judgment-requiring validators.
+
+### Tier 2: Structural & Subjective (Run in Parallel)
+
+**Validator 4: Structural Integrity**
+> - Analogy load-bearing test: remove analogical vocabulary, does argument survive?
+> - Synthesis test: genuine reframing or restating?
+> - Conceptual currency test: do terms help with new cases?
+> - Recipe usability: too specific or too generic?
+
+**Validator 5: Density & Flow**
+> - Empty paragraphs, skimmable sections, dense blocks without reset
+> - Transitions: connect or stack?
+> - Opening/closing lines: strong or weak?
+
+**Validator 6: Audience Fit**
+> - Over-explaining (condescension) or under-explaining (gaps)?
+> - Density calibration: too dumbed down / well calibrated / too insider?
+
+**Validator 7: Backlink Integration**
+> - Organic placement, context provided, value added, link text quality?
+> - If none found, note the opportunity.
+
+### Tier 3: Voice Check (Careful Review)
+
+**Validator 2: Voice & Tone**
+> - Teacher mode, throat-clearing, protesting too much
+> - First person in first 100 words?
+> - Fellow-traveler register or explaining-what-you're-missing?
+
+Voice fixes risk overcorrection — present suggested rewrites for user approval, don't batch-apply.
+
+---
+
+## Part D: Present to User
+
+Save the draft, then present the cleaned version with findings:
 
 > "Draft complete: [filename]
-> 
-> Length: [X words]
-> Sections: [list with word counts]
-> 
-> Happy to discuss or revise until you give me the go-ahead to move to Phase 6."
+>
+> **Length:** [X words]
+> **Sections:** [list with word counts]
+>
+> ---
+>
+> **Mechanical cleanup applied (Tier 1):**
+> - Prose mechanics: [N] fixes
+> - Clichés: [N] replacements  
+> - Factual claims: [N] corrections
+> - Passes: [1-3]
+>
+> **Changes to review for meaning drift:**
+>
+> | Original | Replacement | ⚠️ Drift? |
+> |----------|-------------|-----------|
+> | [example] | [example] | ✓ OK |
+> | [example] | [example] | ⚠️ check |
+>
+> ---
+>
+> **Structural assessment (Tier 2):**
+> - Analogy: [load-bearing / decorative]
+> - Synthesis: [genuine / restating]
+> - Conceptual currency: [assessment]
+> - Recipe: [usable / too specific / too generic]
+> - Density/flow: [issues if any]
+> - Audience fit: [assessment]
+> - Backlinks: [assessment]
+>
+> **Voice rewrites for approval (Tier 3):**
+> 1. [original] → [proposed] — approve? y/n
+> 2. [original] → [proposed] — approve? y/n
+>
+> ---
+>
+> **Overall:** [Ready for your read-through / Needs revision in X areas]
+>
+> Happy to apply voice fixes or discuss findings. When you're ready to read and finalize, let me know."
 
 ---
 
 ## HARD STOP
 
-**You CANNOT proceed to Phase 6 until the user explicitly says to continue.**
+**You CANNOT finalize until the user explicitly approves.**
 
-Do not read the next phase file. Do not start validation. Stay here.
+The user should:
+1. Review the Tier 1 changes for meaning drift
+2. Decide on Tier 2 structural issues (may need earlier phase)
+3. Approve/reject Tier 3 voice rewrites
+4. Read the draft themselves
+5. Request any final revisions
 
-If the user wants to read the draft, discuss it, or request changes — do that. Say something like:
+Say something like:
 
-> "Happy to keep revising until you give me the go-ahead to move to Phase 6."
+> "Happy to keep refining until you give me the go-ahead to finalize."
 
-Only when the user explicitly confirms (e.g., "continue," "validate it," "move to review") should you read `phases/6-validate.md`.
+Only when the user explicitly confirms (e.g., "finalize," "ship it," "done") should you proceed to Finalizing.
 
-The user may want to read the draft before validation, request revisions, or proceed directly.
+---
+
+## Finalizing
+
+Once approved:
+
+1. Ensure the recipe section is clearly marked
+2. Add any author's note the user wants (optional)
+3. Confirm final filename and location
+4. Remove any working notes or comments
+
+> "Essay finalized: [path]
+> 
+> [X] words, [Y] sections, recipe included.
+> 
+> Ready to publish or share."
