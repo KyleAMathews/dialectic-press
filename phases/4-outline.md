@@ -141,6 +141,69 @@ The user may prefer something from the burst that you didn't select.
 
 ---
 
+## Subtitle & Meta Description
+
+After the user picks a title, generate subtitle and meta description candidates. These serve different functions:
+
+**Subtitle:** Appears below the title on the post. Expands or contextualizes the title. Often the "what this is really about" line.
+
+**Meta description:** The ~155 character snippet that appears in search results and social previews. Should make someone click.
+
+### The Idea Burst (Do Not Skip)
+
+**Generate 6-8 candidates for each before selecting.** Same logic as titles — obvious first attempts are usually generic.
+
+**Subtitle frames to try:**
+- The claim in plain language
+- The "so what" — why this matters
+- The surprising implication
+- The question the essay answers
+- The unexpected pairing or inversion
+- A fragment that intrigues
+
+**Meta description frames to try:**
+- Hook + payoff in one line
+- The central insight, compressed
+- A question that creates curiosity
+- A bold claim that demands evidence
+- The phenomenon + the reframe
+
+### What Works
+
+**Subtitles:**
+- Complement the title, don't repeat it
+- If title is abstract, subtitle is concrete (or vice versa)
+- Can be a full sentence or a fragment
+- 5-15 words typical
+
+**Meta descriptions:**
+- ~155 characters max (longer gets truncated)
+- Front-load the interesting part — first 100 chars are safest
+- Avoid clickbait ("You won't believe...") — your audience is smarter than that
+- Include the core concept or claim
+
+### Presenting to the User
+
+After they've picked a title:
+
+> "For [chosen title]:
+>
+> **Subtitle burst:**
+> 1. [candidate]
+> 2. [candidate]
+> ...
+>
+> **My top picks:** [2-3 with brief reasoning]
+>
+> **Meta description burst:**
+> 1. [candidate]
+> 2. [candidate]
+> ...
+>
+> **My top picks:** [2-3 with brief reasoning]"
+
+---
+
 ## Section Headers
 
 Use headers above ~1500 words. Skip for shorter pieces — they can make a short essay feel mechanical.

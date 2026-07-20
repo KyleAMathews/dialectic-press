@@ -11,7 +11,7 @@ First, list files in the dialectic directory to check for multiple rounds. Look 
 **Multiple rounds don't necessarily build on each other.** Each round may be a separate argument that could become its own essay. Don't assume you're writing about the final round.
 
 If multiple rounds exist:
-1. Briefly read each round's `round{N}_sublation.md` (just the key insight, not full analysis)
+1. Briefly read each round's `round{N}_synthesis.md` (just the key insight, not full analysis)
 2. Present a summary of what each round produced
 3. Ask the user which round(s) to focus on before diving deeper
 
@@ -34,7 +34,7 @@ Dialectic files follow this naming convention: `round{N}_{type}.md`
 
 | Order | File Pattern | Why This Order |
 |-------|--------------|----------------|
-| 1 | `round{N}_sublation.md` | **Start here.** This is the synthesis — what got cancelled/preserved/elevated. |
+| 1 | `round{N}_synthesis.md` | **Start here.** This is the synthesis — what got cancelled/preserved/elevated. |
 | 2 | `round{N}_determinate_negation.md` | The specific failures that make the argument interesting. Often the best material. |
 | 3 | `round{N}_monk_a.md`, `round{N}_monk_b.md` | **Skim for evidence and examples**, not their framing. The essay won't reproduce the monks' arguments. |
 | 4 | `misfit_register.md` | Honest limits — what tensions remain unresolved. (Lives at dialectic root, not per-round.) |
@@ -160,6 +160,37 @@ Before checkpoint, run quick structural ablation on your inventory:
 These tests help you understand what you're actually saying before you commit to an outline.
 
 See `reference/ablation-testing.md` for full protocol.
+
+---
+
+## Backlink Discovery
+
+Search the blog (`~/programs/blog`) for posts that connect to this essay's themes. Self-referential blogging strengthens both pieces.
+
+**How to search:**
+
+1. Extract 3-5 key terms from the dialectic (concepts, domain words, named phenomena)
+2. Grep the blog for each term
+3. Skim matching posts for genuine connections — not just word matches
+
+**What you're looking for:**
+
+| Connection Type | Example | How to Use |
+|-----------------|---------|------------|
+| Prior exploration | You wrote about this before, differently | "I've been circling this for a while" — link as prior attempt |
+| Adjacent concept | Related idea in another domain | Cross-reference to build network |
+| Contradictory position | You argued the opposite before | Acknowledge the shift — readers notice |
+| Concrete example | A post that illustrates this essay's point | Evidence from your own experience |
+
+**Present candidates to user:**
+
+> "Found [N] potential backlinks in your blog:
+> - **[post title]** — [one-line description of connection]
+> - **[post title]** — [one-line description]
+> 
+> Any of these worth weaving in? Or others you're thinking of?"
+
+**Don't over-link.** 1-3 backlinks per essay is plenty. The goal is networked thinking, not citation density.
 
 ---
 

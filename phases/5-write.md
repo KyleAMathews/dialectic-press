@@ -166,6 +166,21 @@ Save the draft to the dialectic directory:
 - Filename: `essay_[topic].md` or similar
 - Include the recipe as a marked section at the end
 
+### Frontmatter
+
+Include YAML frontmatter with the title, subtitle, and meta description (from Phase 4):
+
+```yaml
+---
+title: "The Chosen Title"
+subtitle: "The chosen subtitle"
+description: "The meta description for search/social (~155 chars)"
+date: YYYY-MM-DD
+---
+```
+
+The body follows the frontmatter.
+
 Do not present the full draft inline — it's too long. Instead, confirm:
 
 > "Draft complete: [filename]

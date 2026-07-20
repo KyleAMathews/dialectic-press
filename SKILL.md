@@ -38,6 +38,7 @@ What makes this different:
 This is an **interactive workshop**, not an autonomous pipeline. Each phase ends with a checkpoint where the user validates or redirects.
 
 ```
+Phase 0: Intent       → User establishes what they want to write about
 Phase 1: Inventory    → User confirms: "These are the key elements"
 Phase 2: Analogy      → User picks from candidate analogies
 Phase 3: Concepts     → User validates which terms do work
@@ -52,10 +53,10 @@ Phase 6: Validate     → User reviews, requests revisions
 
 ## Starting the Process
 
-1. Ask the user which dialectic they want to transform
-2. Read `phases/1-inventory.md`
-3. Execute Phase 1, ending at its checkpoint
-4. Only after user confirmation, read `phases/2-analogy.md`
+1. Ask the user which dialectic they want to draw from
+2. Read `phases/0-intent.md`
+3. Execute Phase 0 — establish what they actually want to write (may differ from dialectic topic)
+4. Only after user confirms intent, read `phases/1-inventory.md`
 5. Continue phase by phase
 
 The user can intervene at any checkpoint — redirecting, adding constraints, or returning to an earlier phase.
@@ -64,6 +65,7 @@ The user can intervene at any checkpoint — redirecting, adding constraints, or
 
 ## Phase Files
 
+- `phases/0-intent.md` — Establish what the essay is actually about
 - `phases/1-inventory.md` — Survey dialectic outputs, identify key elements
 - `phases/2-analogy.md` — Find and propose analogical domains
 - `phases/3-concepts.md` — Coin and validate conceptual currency
