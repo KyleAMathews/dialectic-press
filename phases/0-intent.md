@@ -201,6 +201,76 @@ The thesis evolves through discussion. **Re-run the blind probe when:**
 
 ---
 
+## The Essay Log (Anti-Drift)
+
+Long sessions drift. The agent forgets motivations, softens frontier claims, reintroduces precommodified ideas. The essay log prevents this.
+
+### Create the Log File
+
+At the end of Phase 0, create `essay_log.md` in the dialectic directory:
+
+```markdown
+# Essay Log
+
+## Anchor (frozen — do not edit)
+
+**What I'm trying to say:** [user's stated intent, verbatim]
+
+**Frontier claim:** [what the blind probe couldn't predict]
+
+**Groove to avoid:** [what the probe DID predict — cut or demote this]
+
+**Motivation:** [why writing this, in user's words]
+
+---
+
+## Working Thesis (living — explicit diffs only)
+
+[Current thesis. When this changes, record the delta below.]
+
+---
+
+## Thesis Ledger (append-only)
+
+| Phase | Thesis at this point | Delta from previous | Probe reading |
+|-------|---------------------|---------------------|---------------|
+| 0 | [initial] | — | [frontier/groove/mixed] |
+
+---
+
+## Decisions Ledger (append-only)
+
+| Phase | Decision | Rationale |
+|-------|----------|-----------|
+| 0 | [e.g., "focus on community fission, not broken apprenticeship"] | [why] |
+
+---
+```
+
+### Using the Log
+
+**At phase boundaries:** Re-read the anchor. Compare current work to the frozen intent. If drifting, flag it.
+
+**When thesis evolves:** Don't silently update the working thesis. Record the delta explicitly:
+- What changed
+- Why
+- Re-run probe if significant
+
+**When tempted by a groove idea:** Check the "Groove to avoid" section. If it matches, cut it.
+
+**At validation (Phase 5):** One validator checks: does the draft honor the anchor? Or has it drifted to the groove?
+
+### The Scent-Fix
+
+At the top of each phase:
+1. Read the essay log
+2. Re-state the anchor in your own words (forces re-encoding)
+3. Note any tension between current work and frozen intent
+
+This counteracts context-window pressure. Writing the anchor without re-reading it builds the anchor and never looks at it.
+
+---
+
 ## How This Shapes the Process
 
 The intent established here determines:

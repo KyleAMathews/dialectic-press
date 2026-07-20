@@ -6,6 +6,25 @@ Produce the essay draft, run mechanical cleanup, run validation, then present a 
 
 ---
 
+## Before Writing: Scent-Fix
+
+**Re-read the essay log.** Long sessions drift. Before writing:
+
+1. Read `essay_log.md` — especially the frozen anchor and "groove to avoid"
+2. Re-state the anchor in your own words (forces re-encoding, counteracts context pressure)
+3. Check: does the outline still honor the anchor? Or has it drifted?
+
+> "Re-reading the essay log before writing...
+>
+> **Anchor:** [restate in your words]
+> **Frontier claim to protect:** [what the probe couldn't predict]
+> **Groove to avoid:** [what would be precommodified]
+>
+> [If tension:] The outline seems to have drifted toward [X]. Want to correct before writing, or proceed?
+> [If aligned:] Outline aligns with the anchor. Proceeding to draft."
+
+---
+
 ## Part A: Write the Draft
 
 ### Voice Selection
@@ -213,6 +232,22 @@ After mechanical cleanup, run the judgment-requiring validators.
 > - Fellow-traveler register or explaining-what-you're-missing?
 
 Voice fixes risk overcorrection — present suggested rewrites for user approval, don't batch-apply.
+
+### Tier 4: Anchor Check (Anti-Drift)
+
+**Validator 9: Anchor Honoring**
+> Read `essay_log.md` (the frozen anchor, frontier claim, groove to avoid).
+> Then read the draft.
+>
+> Check:
+> 1. **Frontier claim present?** Does the draft make the claim the blind probe couldn't predict?
+> 2. **Groove avoided?** Has precommodified material crept back in?
+> 3. **Anchor honored?** Does the draft say what the user originally intended?
+> 4. **Drift detection:** Compare draft thesis to the anchor. Note any divergence.
+>
+> Return: assessment of alignment. Flag any drift toward groove or away from anchor.
+
+This is the most important validator — catches the failure mode where the essay drifts back to obvious territory.
 
 ---
 
