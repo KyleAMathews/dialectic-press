@@ -1,6 +1,6 @@
 # Dialectic Press
 
-A Claude Code skill for transforming dialectic outputs into essays — meso-level AI-assisted writing with structural recipes.
+An agent skill for transforming dialectic outputs into essays — meso-level AI-assisted writing with structural recipes.
 
 ## What It Does
 
@@ -37,13 +37,13 @@ Each phase ends with a checkpoint. The user validates or redirects before procee
 
 ## Installation
 
-Symlink to your Claude Code commands directory:
+Symlink to your agent's commands/skills directory. For Claude Code:
 
 ```bash
 ln -s /path/to/dialectic-press ~/.claude/commands/dialectic-press
 ```
 
-Then invoke with `/dialectic-press` in Claude Code.
+Then invoke with `/dialectic-press`.
 
 ## Dependencies
 
