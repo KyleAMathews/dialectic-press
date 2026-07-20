@@ -1,11 +1,11 @@
 ---
-name: sloptractions
-description: Transform dialectic outputs into a Venkatesh Rao-style essay — meso-level AI-assisted writing with structural recipes. Use after completing a dialectic when you want to turn the analysis into a publishable essay that exposes both the insight and the method.
+name: dialectic-press
+description: Transform dialectic outputs into essays — meso-level AI-assisted writing with structural recipes. Use after completing a dialectic when you want to turn the analysis into a publishable essay that exposes both the insight and the method.
 ---
 
-# Sloptractions
+# Dialectic Press
 
-Transform dialectic outputs into a polished essay in the style of Venkatesh Rao's "sloptractions" — AI-assisted writing at "meso" abstraction with a structural recipe at the end.
+Transform dialectic outputs into polished essays — AI-assisted writing at "meso" abstraction with a structural recipe at the end.
 
 ## When to Use
 
@@ -14,9 +14,7 @@ Transform dialectic outputs into a polished essay in the style of Venkatesh Rao'
 - You want the essay to be **pleasurable, not just summarizable**
 - You want to expose the method (the recipe) so readers can apply similar moves
 
-## The Sloptractions Method
-
-Based on Rao's corpus (LLMs as Index Funds, Prompting is Managing, Autoamputation Flow, etc.):
+## The Method
 
 1. **Provocation/Hook** — Concrete phenomenon that illustrates something larger
 2. **Reframing via analogy** — Map onto a well-understood system from another domain
@@ -69,7 +67,7 @@ The user can intervene at any checkpoint — redirecting, adding constraints, or
 - `phases/1-inventory.md` — Survey dialectic outputs, identify key elements
 - `phases/2-analogy.md` — Find and propose analogical domains
 - `phases/3-concepts.md` — Coin and validate conceptual currency
-- `phases/4-outline.md` — Map material onto the sloptractions arc
+- `phases/4-outline.md` — Map material onto the essay arc
 - `phases/5-write.md` — Draft the essay
 - `phases/6-validate.md` — Review and polish
 

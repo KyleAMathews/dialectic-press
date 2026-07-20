@@ -1,4 +1,4 @@
-# Sloptractions
+# Dialectic Press
 
 A Claude Code skill for transforming dialectic outputs into essays — meso-level AI-assisted writing with structural recipes.
 
@@ -40,14 +40,14 @@ Each phase ends with a checkpoint. The user validates or redirects before procee
 Symlink to your Claude Code commands directory:
 
 ```bash
-ln -s /path/to/sloptractions-skill ~/.claude/commands/sloptractions
+ln -s /path/to/dialectic-press ~/.claude/commands/dialectic-press
 ```
 
-Then invoke with `/sloptractions` in Claude Code.
+Then invoke with `/dialectic-press` in Claude Code.
 
 ## Dependencies
 
-Works best after running a dialectic with [hegelian-dialectic-skill](https://github.com/kylemathews/hegelian-dialectic-skill). The dialectic produces the raw synthesis; this skill turns it into prose.
+Works best after running a dialectic with [hegelian-dialectic-skill](https://github.com/KyleAMathews/hegelian-dialectic-skill). The dialectic produces the raw synthesis; this skill turns it into prose.
 
 ## Inspirations
 
