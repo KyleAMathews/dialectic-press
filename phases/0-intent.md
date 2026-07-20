@@ -142,12 +142,15 @@ Spawn a fresh subagent that sees **only the topic** — not the dialectic materi
 
 **The collapse signal:** If the dialectic *reached* (monks strained, needed external research, invented new framing) but the synthesis still matches the blind prediction — that's the failure mode. Frontier work that got smoothed back to groove.
 
+**The inversion trap:** Don't treat a match as validation. If the blind probe predicts your claim almost verbatim, that's evidence of precommodification — not confirmation you're right. "The probe agrees with me" means you're in the groove, not on the frontier.
+
 ### Response Strategies
 
 **If groove (matches prediction):**
-1. **Find the level-up:** Is there a *combination* or tangent that's novel even if the main argument isn't?
-2. **Lean on provenance:** Your backlinks, your history, your specific angle — these establish attribution
-3. **Accept and proceed:** Some essays are worth writing on familiar ground — you're building *your* corpus
+1. **Cut or demote:** Anything the probe predicts verbatim gets cut or reduced to connective tissue
+2. **Find the level-up:** Is there a *combination* or tangent that's novel even if the main argument isn't?
+3. **Protect the frontier:** Your live claim is whatever the probe *couldn't* predict — build around that
+4. **Lean on provenance:** Your backlinks, your history, your specific angle — these establish attribution
 
 **If frontier (diverges):**
 Good sign. The dialectic produced something the LLM wouldn't predict from the topic alone. Proceed with confidence.
