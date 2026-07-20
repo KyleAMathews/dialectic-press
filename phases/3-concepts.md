@@ -2,11 +2,36 @@
 
 ## Goal
 
-Extract or coin terms that will do load-bearing work in the essay. Good conceptual currency lets readers think with your ideas after they finish reading.
+Extract or coin terms that will do load-bearing work in the essay — or decide that borrowed terms plus a clear sentence are better than new jargon.
+
+## The Decision: Coin or Borrow?
+
+**The rule:** Coin a term when ordinary language either cannot compress the idea or smuggles in the wrong theory. Do not coin one merely because an idea recurs.
+
+From Rao's "Configurancy" — reasons to invent a word:
+- Existing language imports commitments that corrupt the new idea
+- A neologism provides "methodological hygiene"
+
+But then the coined term must:
+- Name a distinct role in the explanation
+- Exclude nearby meanings that would distort it
+- Resist replacement by ordinary synonyms
+- Come with a plain-language anchor
+- Support clear examples and counterexamples
+- Avoid pretending to name a hidden essence
+
+**Often the right answer is not to coin.** The naming *process* is valuable even if the candidate is discarded. A central claim stated as a sentence ("The tetrad is unevenly distributed") can compress the essay without demanding readers learn new jargon.
+
+**Prefer borrowed terms** from:
+- The dialectic's native frame
+- The analogical domain (Phase 2)
+- Established thinkers who already named the concept
+
+**Coin only when** ordinary synonyms would mislead or require a paragraph to explain.
+
+---
 
 ## What Makes Good Conceptual Currency
-
-From Rao's corpus:
 
 | Term | What It Does |
 |------|--------------|
@@ -25,6 +50,7 @@ Bad terms:
 - Just labels for things that already have names
 - Too abstract to apply ("holistic synthesis")
 - Too specific to this one case
+- Allusive overloading — sounds precise before its structural fit is secure
 
 ## Sources for Terms
 
@@ -57,12 +83,21 @@ Test each candidate:
 
 ## The Minimum Set
 
-You need at least:
-1. **A term for the reframing** — what the essay reveals (e.g., "prompting-managing equivalence")
-2. **A term for the old binary** (optional but useful) — what readers thought the debate was about
-3. **A term for the key dynamic** — the mechanism or process the synthesis identified
+You need:
+1. **A way to name the reframing** — could be a coined term, a borrowed term, or a sentence
+2. **Possibly a term for the key dynamic** — only if it recurs and compression helps
 
-More is fine, but don't coin terms for the sake of coining. Every term should earn its place.
+You do NOT need:
+- A term for everything
+- New jargon when borrowed terms suffice
+- A branded concept when a sentence works
+
+**Valid outcomes for this phase:**
+- "We'll use [borrowed term] from [source] and [borrowed term] from [source]"
+- "The central claim is: [sentence]. No new jargon needed."
+- "One coined term: [X]. The rest are borrowed."
+
+Don't coin terms for the sake of coining. Every term should earn its place.
 
 ---
 
@@ -94,24 +129,25 @@ See `reference/ablation-testing.md` for full protocol.
 
 ## Checkpoint
 
-Present candidate terms to the user:
+Present the conceptual vocabulary — which may include borrowed terms, a central-claim sentence, and/or coined terms:
 
-> "Here are the conceptual terms I'm proposing for the essay:
+> "Here's the conceptual vocabulary I'm proposing:
 > 
-> **For the reframing:**
-> - [Term A]: [what it means, why it works]
-> - [Term B]: [alternative, if you have one]
+> **Borrowed terms:**
+> - [Term] from [source] — [how it applies]
+> - [Term] from [source] — [how it applies]
 > 
-> **For the key dynamic:**
-> - [Term]: [what it captures]
+> **Central claim (as a sentence, not a branded concept):**
+> - "[The sentence that compresses the essay]"
 > 
-> **From the analogical domain:**
-> - [Imported term]: [how it applies here]
+> **Coined term (if any):**
+> - [Term]: [what it means, why coining is justified]
+> - Why ordinary language doesn't work: [explanation]
 > 
-> **Optional/secondary:**
-> - [Any other terms worth considering]
+> **Candidates I considered but rejected:**
+> - [Term]: [why it didn't earn its place — allusive overloading, ordinary synonym suffices, etc.]
 > 
-> Which of these do work? Any that feel like empty labels? Terms you'd prefer instead?"
+> Does this vocabulary feel right? Too much jargon? Missing a handle for something important?"
 
 ---
 
