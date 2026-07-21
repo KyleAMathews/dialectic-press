@@ -169,6 +169,16 @@ date: YYYY-MM-DD
 
 **Immediately after writing, before presenting to user**, run the mechanical validators in a loop.
 
+### Snapshot Before Validation
+
+Before any fixes, copy the draft to a temp file:
+
+```bash
+cp essay_[topic].md essay_[topic]_pre_validation.md
+```
+
+This enables a semantic diff after validation completes — comparing original to final reveals exactly what changed and whether meaning drifted.
+
 ### Tier 1 Validators
 
 Spawn these in parallel, loop until clean (max 3 passes):
@@ -249,6 +259,16 @@ Voice fixes risk overcorrection — present suggested rewrites for user approval
 
 This is the most important validator — catches the failure mode where the essay drifts back to obvious territory.
 
+### Semantic Diff Check
+
+After all validation completes, compare the final draft to the pre-validation snapshot:
+
+1. Diff `essay_[topic]_pre_validation.md` against the current draft
+2. For any substantive changes (not just typos/AI-isms), ask: did the *meaning* change?
+3. Flag semantic drift — places where cleanup altered the argument, not just the prose
+
+Present this as part of the validation results so the user can review.
+
 ---
 
 ## Part D: Present to User
@@ -289,6 +309,15 @@ Save the draft, then present the cleaned version with findings:
 > **Voice rewrites for approval (Tier 3):**
 > 1. [original] → [proposed] — approve? y/n
 > 2. [original] → [proposed] — approve? y/n
+>
+> **Anchor check (Tier 4):**
+> - Frontier claim present: [yes/no — quote if yes]
+> - Groove material avoided: [yes/no — flag if crept back]
+> - Anchor honored: [aligned / drifted — note divergence]
+>
+> **Semantic diff (pre-validation → final):**
+> - [N] substantive changes beyond typo/AI-ism cleanup
+> - [Flag any where argument changed, not just prose]
 >
 > ---
 >
