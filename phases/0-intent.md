@@ -109,7 +109,11 @@ Use these frameworks to understand the user's intent, but don't force them on th
 
 Once you have a topic direction, test whether it's precommodified territory.
 
+**The goal:** Never write what's expected. If a blind agent can predict your essay's argument, you're not in the sweet spot. The value is in the *understory* — the meso-level detail that's more than humans hold unassisted (>7±2 chunks) but less than AI handles autonomously. Overstory claims are already in distribution.
+
 **The mechanism:** LLMs compress training data into a latent space. Multiple people querying similar problems "pull forward the same sticky ideas along the same gradients" — arriving at roughly the same conclusions independently. Ideas arrive pre-packaged, no clear originator, no attribution value.
+
+**The test question:** Can the probe *summarize* your essay accurately from just the topic? If yes, the essay is too predictable — it has no unsummarizable load-bearing content. The goal is writing that's pleasurable, not summarizable.
 
 **The problem with self-assessment:** An agent can't reliably judge whether its own elaboration "flows easily" — it always produces fluent text. Instead, use a **blind-expectation probe**.
 
@@ -147,13 +151,19 @@ Spawn a fresh subagent that sees **only the topic** — not the dialectic materi
 ### Response Strategies
 
 **If groove (matches prediction):**
+
+**Do not proceed.** Writing what's expected is not worth writing. Instead:
+
 1. **Cut or demote:** Anything the probe predicts verbatim gets cut or reduced to connective tissue
 2. **Find the level-up:** Is there a *combination* or tangent that's novel even if the main argument isn't?
 3. **Protect the frontier:** Your live claim is whatever the probe *couldn't* predict — build around that
-4. **Lean on provenance:** Your backlinks, your history, your specific angle — these establish attribution
+4. **Go deeper into understory:** The probe predicts overstory. What's the meso-level detail beneath it that the probe can't reconstruct?
+5. **Lean on provenance:** Your backlinks, your history, your specific angle — these establish attribution
+
+**If still groove after trying these:** Consider abandoning this essay. Not everything is worth writing. The dialectic may have landed on a well-worn path. Return to the dialectic and look for frontier material.
 
 **If frontier (diverges):**
-Good sign. The dialectic produced something the LLM wouldn't predict from the topic alone. Proceed with confidence.
+Good sign. The dialectic produced something the LLM wouldn't predict from the topic alone. The argument has understory the probe can't summarize. Proceed with confidence.
 
 **If collapse (reached but grooved):**
 Warning. The hard work got flattened. Look at where the dialectic reached — can you recover that frontier material? Or find a different angle?
