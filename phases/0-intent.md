@@ -109,7 +109,17 @@ Use these frameworks to understand the user's intent, but don't force them on th
 
 Once you have a topic direction, test whether it's precommodified territory.
 
-**The goal:** Never write what's expected. If a blind agent can predict your essay's argument, you're not in the sweet spot. The value is in the *understory* — the meso-level detail that's more than humans hold unassisted (>7±2 chunks) but less than AI handles autonomously. Overstory claims are already in distribution.
+**The goal:** Never write what's expected. If a blind agent can predict your essay's argument, you're not in the sweet spot.
+
+### Understory vs. Overstory
+
+**Overstory:** The grand narrative arc. The high-level claim. The thesis an LLM would predict from a topic sentence. Pre-AI writing had an overstory bias — it's what humans can hold in mind. But overstory is already in distribution. The probe predicts it.
+
+**Understory:** The phenomenological detail beneath the overstory. The specific mechanisms, concrete examples, particular sequences, lived textures. Before AI, understory writing was too hard — reality has too much detail for humans to keep straight. AI makes it tractable.
+
+**Meso-level detail:** More than humans can handle unassisted (>7±2 chunks), but less than AI handles autonomously and illegibly. The sweet spot. Dense enough to reward close reading, not so dense it becomes noise.
+
+The value is in the understory — the meso-level detail the probe can't reconstruct. Overstory claims are already in distribution.
 
 **The mechanism:** LLMs compress training data into a latent space. Multiple people querying similar problems "pull forward the same sticky ideas along the same gradients" — arriving at roughly the same conclusions independently. Ideas arrive pre-packaged, no clear originator, no attribution value.
 
